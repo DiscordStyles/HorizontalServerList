@@ -1,0 +1,208 @@
+/**
+ * @name Horizontal Server List
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @invite TeRQEPb
+ * @description Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes
+ * @source https://github.com/GibbuBDStuff/HorizontalServerList
+ * @website https://www.gibbu.me
+*/
+:root {
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+}
+
+
+:root {
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
+  --server-container: calc(var(--server-size) + 20px);
+}
+
+#app-mount {
+  .base-3dtUhz {
+    top: var(--server-container) !important;
+    position: absolute !important;
+    left: 0 !important;
+  }
+
+  .sidebar-2K8pFh {
+    border-radius: 0;
+  }
+
+  [class*="unreadMentionsIndicator"] {
+    width: var(--server-size);
+    padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+  }
+
+  .wrapper-1Rf91z.guilds-1SWlCJ {
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    height: 100vw !important;
+    width: var(--server-container);
+    top: var(--server-container);
+    bottom: unset;
+    position: absolute !important;
+    left: 0;
+
+    .scrollerWrap-1IAIlv {
+      width: calc(100% + 30px);
+    }
+
+    .scroller-2TZvBN {
+      padding-top: 0 !important;
+      & > div[style]:not(.listItem-2P_4kh) {
+        height: auto !important;
+        &[style*="height: 0px"] {
+          padding-top: 1px;
+        }
+      }
+    }
+
+    .svg-1X37T1,
+    .wrapper-25eVIn,
+    .guildsError-b7zR5H,
+    .placeholderMask-3K9THS {
+      width: var(--server-size);
+      height: var(--server-size);
+    }
+
+    [role="group"] {
+      height: auto !important;
+    }
+
+    [class*="pill"] {
+      transform: rotate(90deg) translateY(-50%);
+      height: var(--server-size);
+      width: 4px;
+      top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+      margin-left: -2px;
+      span {
+        height: 100% !important;
+        width: 4px !important;
+        transform: scale(0,1) !important;
+        transition: 0.15s ease !important;
+        margin-left: 0;
+        border-radius: 0 4px 4px 0;
+      }
+      @for $i from 0 through 8 {
+        span[style*="height: #{$i}"] {
+          transform: scale(1,.24) !important;
+        }
+      }
+      // Hovered
+      @for $i from 9 through 20 {
+        span[style*="height: #{$i}"] {
+          transform: scale(1,.7) !important;
+        }
+      }
+      // Selected
+      @for $i from 21 through 40 {
+        span[style*="height: #{$i}"] {
+          transform: scale(1,1) !important;
+        }
+      }
+    }
+
+    .wrapper-sa6paO {
+      height: var(--server-size) !important;
+    }
+
+    .listItem-2P_4kh {
+      width: var(--server-size);
+      transform: rotate(90deg);
+      margin: var(--server-spacing) 10px;
+      position: unset;
+    }
+
+    .guildSeparator-3s64Iy {
+      transform: rotate(90deg);
+      width: var(--server-size);
+    }
+
+    .wrapper-21YSNc {
+      width: var(--server-container);
+    }
+    .expandedFolderBackground-2sPsd- {
+      width: var(--server-size);
+      left: 50%;
+      border-radius: 10px;
+      transform: translateX(-50%);
+    }
+
+    .folder-21wGz3 {
+      background: transparent;
+    }
+  }
+  .listItemTooltip-CDcY8J {
+    position: absolute;
+    max-width: unset;
+    white-space: nowrap;
+    margin-left: calc(var(--server-size) / -1 - 20px);
+    top: calc(var(--server-size) - 10px);
+    .tooltipPointer-3ZfirK {
+      transform: rotate(180deg);
+      top: -5px;
+      right: unset;
+      left: 13px;
+      z-index: 1;
+    }
+  }
+
+  // OnlineFriendCount by Zerethox
+  .friendsOnline-2JkivW {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: calc(-50% + var(--server-spacing));
+    left: calc(-50%);
+    width: calc(var(--server-size) + var(--server-spacing));
+    display: flex;
+    justify-content: center;
+  }
+
+  // Server Folders by DevilBro
+  .guilds-1SWlCJ.content-Pph8t6 {
+    position: absolute !important;
+    top: calc(var(--server-container) * 2) !important;
+    &:not(.closed-j55_T-) + .base-3dtUhz {
+      top: calc(var(--server-container) * 2) !important;
+    }
+  }
+
+  // ReadAllNotifications by DevilBro
+  .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh {
+    height: var(--server-size) !important;
+    .wrapper-1BJsBx {
+      height: 100% !important;
+    }
+    .button-Jt-tIg {
+      width: 100%;
+      height: 100% !important;
+      border-radius: 50%;
+      padding: 2px;
+      font-size: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  }
+}
+html.platform-osx #app-mount {
+  .typeMacOS-3EmCyP {
+    width: 100%;
+  }
+  .base-3dtUhz {
+    top: calc(var(--server-container) + 30px) !important;
+  }
+  #pluginNotice {
+    top: 32px;
+    z-index: 100000 !important;
+  }
+}
+
+
+body.foldercontentopened .base-3dtUhz {
+  transition: 0.2s ease !important;
+}
