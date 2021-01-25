@@ -13,3 +13,7 @@ Supports ServerFolders by DevilBro
 
 Custom Server icon sizes
 ![Server Icon Sizes](https://i.imgur.com/KQlsfee.jpg)
+
+## License
+
+See the [LICENSE](https://github.com/DiscordStyles/HorizontalServerList/blob/master/LICENSE.md) file for license rights and limitations (MIT).
