@@ -4,7 +4,7 @@
  * @version 2.0.0
  * @invite TeRQEPb
  * @description Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes
- * @source https://github.com/GibbuBDStuff/HorizontalServerList
+ * @source https://github.com/DiscordStyles/HorizontalServerList
  * @website https://www.gibbu.me
 */
 :root {
@@ -20,7 +20,7 @@
 }
 
 #app-mount {
-  .base-3dtUhz {
+  .app-1q1i1E .base-3dtUhz {
     top: var(--server-container) !important;
     position: absolute !important;
     left: 0 !important;

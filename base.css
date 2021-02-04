@@ -3,7 +3,8 @@
   --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
   --server-container: calc(var(--server-size) + 20px);
 }
-#app-mount .base-3dtUhz {
+
+#app-mount .app-1q1i1E .base-3dtUhz {
   top: var(--server-container) !important;
   position: absolute !important;
   left: 0 !important;
@@ -34,10 +35,10 @@
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
   padding-top: 0 !important;
 }
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh) {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh) {
   height: auto !important;
 }
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
   padding-top: 1px;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .svg-1X37T1,
@@ -240,7 +241,7 @@
   position: absolute !important;
   top: calc(var(--server-container) * 2) !important;
 }
-#app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)+.base-3dtUhz {
+#app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
   top: calc(var(--server-container) * 2) !important;
 }
 #app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh {
@@ -258,6 +259,7 @@
   box-sizing: border-box;
   text-align: center;
 }
+
 html.platform-osx #app-mount .typeMacOS-3EmCyP {
   width: 100%;
 }
@@ -268,6 +270,7 @@ html.platform-osx #app-mount #pluginNotice {
   top: 32px;
   z-index: 100000 !important;
 }
+
 body.foldercontentopened .base-3dtUhz {
   transition: 0.2s ease !important;
 }
