@@ -9,6 +9,7 @@
 */
 
 @import url("https://discordstyles.github.io/HorizontalServerList/base.css");
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/bottomhsl.css");
 
 :root {
   --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
