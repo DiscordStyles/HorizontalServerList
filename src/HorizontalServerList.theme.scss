@@ -163,8 +163,8 @@
     justify-content: center;
   }
 
-  // Server Folders by DevilBro
-  .guilds-1SWlCJ.content-Pph8t6 {
+  // Server Folders by DevilBro and BetterFolders by Juby210 & Lighty
+  .guilds-1SWlCJ.content-Pph8t6, .BF-folderSidebar {
     position: absolute !important;
     top: calc(var(--server-container) * 2) !important;
     &:not(.closed-j55_T-) + .base-3dtUhz {
@@ -187,6 +187,11 @@
       box-sizing: border-box;
       text-align: center;
     }
+  }
+
+  // BetterFolders by Juby210 & Lighty
+  .BF-folderSidebar {
+    top: calc(var(--server-container)) !important;
   }
 }
 html.platform-osx #app-mount {

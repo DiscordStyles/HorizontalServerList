@@ -237,11 +237,11 @@
   display: flex;
   justify-content: center;
 }
-#app-mount .guilds-1SWlCJ.content-Pph8t6 {
+#app-mount .guilds-1SWlCJ.content-Pph8t6, #app-mount .BF-folderSidebar {
   position: absolute !important;
   top: calc(var(--server-container) * 2) !important;
 }
-#app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
+#app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz, #app-mount .BF-folderSidebar:not(.closed-j55_T-) + .base-3dtUhz {
   top: calc(var(--server-container) * 2) !important;
 }
 #app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh {
@@ -258,6 +258,9 @@
   font-size: 10px;
   box-sizing: border-box;
   text-align: center;
+}
+#app-mount .BF-folderSidebar {
+  top: calc(var(--server-container)) !important;
 }
 
 html.platform-osx #app-mount .typeMacOS-3EmCyP {
