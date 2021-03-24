@@ -38,7 +38,7 @@
     height: auto;
   }
 
-  .wrapper-1Rf91z.guilds-1SWlCJ {
+  .guilds-1SWlCJ {
     transform-origin: top left;
     transform: rotate(-90deg);
     height: 100vw !important;
@@ -52,7 +52,7 @@
       width: calc(100% + 30px);
     }
 
-    .scroller-2TZvBN {
+    .scrollerBase-289Jih {
       padding-top: 0 !important;
       & > div[style]:not(.listItem-2P_4kh) {
         height: auto !important;
@@ -110,23 +110,24 @@
     .wrapper-sa6paO {
       height: var(--server-size) !important;
     }
+    .wrapper-21YSNc,
+    .wrapper-3Njo_c {
+      width: var(--server-container);
+    }
 
-    .listItem-2P_4kh {
+    [class*="listItem"]:not([class*="listItemWrapper"]) {
       width: var(--server-size);
       transform: rotate(90deg);
       margin: var(--server-spacing) 10px;
       position: unset;
     }
 
-    .guildSeparator-3s64Iy {
+    [class*="guildSeparator"] {
       transform: rotate(90deg);
       width: var(--server-size);
     }
 
-    .wrapper-21YSNc {
-      width: var(--server-container);
-    }
-    .expandedFolderBackground-2sPsd- {
+    [class*="expandedFolderBackground"] {
       width: var(--server-size);
       left: 50%;
       border-radius: 10px;
@@ -137,13 +138,13 @@
       background: transparent;
     }
   }
-  .listItemTooltip-CDcY8J {
+  [class*="listItemTooltip"] {
     position: absolute;
     max-width: unset;
     white-space: nowrap;
     margin-left: calc(var(--server-size) / -1 - 20px);
     top: calc(var(--server-size) - 10px);
-    .tooltipPointer-3ZfirK {
+    [class*="tooltipPointer"] {
       transform: rotate(180deg);
       top: -5px;
       right: unset;
@@ -173,7 +174,7 @@
   }
 
   // ReadAllNotifications by DevilBro
-  .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh {
+  .guilds-1SWlCJ .frame-oXWS21[class*="listItem"] {
     height: var(--server-size) !important;
     .wrapper-1BJsBx {
       height: 100% !important;
