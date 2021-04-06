@@ -9,6 +9,7 @@
   position: absolute !important;
   left: 0 !important;
   right: 0;
+  bottom: 0;
 }
 #app-mount .sidebar-2K8pFh {
   border-radius: 0;
