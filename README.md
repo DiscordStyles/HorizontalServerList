@@ -1,18 +1,13 @@
-## iPadOS
-Discord redesigned to be simplified. Design by [jacktompsett](https://www.behance.net/jacktompsett) on Behance.
+## Horizontal Server List
+Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes
 
 - - -
-BetterDiscord Download: Soon:tm:  
-Powercord Install: `git clone https://github.com/DiscordStyles/iPadOS`
+BetterDiscord Download: [https://betterdiscord.app/theme/Horizontal%20Server%20List](https://betterdiscord.app/Download?id=124)  
+Powercord Install: `git clone https://github.com/DiscordStyles/HorizontalServerlist`
 - - -
 
-Server Chat
-![Server Chat](https://i.imgur.com/SVo1SN4.png)
-
-## Contributing
-
-Looking to contribute to iPadOS theme? Read the the [contributing.md](https://github.com/DiscordStyles/iPadOS/blob/master/CONTRIBUTING.md) file.
+![Preview](https://i.imgur.com/yVDtwvF.png)  
 
 ## License
 
-See the [LICENSE](https://github.com/DiscordStyles/iPadOS/blob/master/LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/DiscordStyles/HorizontalServerList/blob/master/LICENSE.md) file for license rights and limitations (MIT).
