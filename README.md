@@ -8,6 +8,10 @@ Powercord Install: `git clone https://github.com/DiscordStyles/HorizontalServerl
 
 ![Preview](https://i.imgur.com/yVDtwvF.png)  
 
+## Contributing
+
+Looking to contribute to iPadOS theme? Read the the [contributing.md](https://github.com/DiscordStyles/HorizontalServerList/blob/master/CONTRIBUTING.md) file.
+
 ## License
 
 See the [LICENSE](https://github.com/DiscordStyles/HorizontalServerList/blob/master/LICENSE.md) file for license rights and limitations (MIT).
