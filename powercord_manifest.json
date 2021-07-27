@@ -3,7 +3,7 @@
     "description": "Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes",
     "version": "1.0.0",
     "author": "Gibbu#1211",
-    "theme": "HorizontalServerList.theme.css",
+    "theme": "src/HorizontalServerList.theme.scss",
     "consent": ["ext_listing"],
     "license": "MIT"
 }
