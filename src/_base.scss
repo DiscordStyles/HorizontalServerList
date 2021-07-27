@@ -1,0 +1,210 @@
+:root {
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
+  --server-container: calc(var(--server-size) + 20px);
+}
+
+#app-mount {
+  .app-1q1i1E .base-3dtUhz {
+    top: var(--server-container) !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0;
+    bottom: 0;
+		max-width: 100%;
+  }
+
+  .sidebar-2K8pFh {
+    border-radius: 0;
+  }
+
+  [class*="unreadMentionsIndicator"] {
+    width: var(--server-size);
+    padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+  }
+
+  .guilds-1SWlCJ {
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    height: 100vw !important;
+    width: var(--server-container);
+    top: var(--server-container);
+    bottom: unset;
+    position: absolute !important;
+    left: 0;
+
+		& > [data-list-id="guildsnav"] {
+			margin-bottom: 0 !important;
+		}
+
+    .scrollerWrap-1IAIlv {
+      width: calc(100% + 30px);
+    }
+
+    .scrollerBase-289Jih {
+      padding-top: 0 !important;
+      & > div[style]:not(.listItem-2P_4kh) {
+        height: auto !important;
+        &[style*="height: 0px"] {
+          padding-top: 1px;
+        }
+      }
+    }
+
+    .svg-1X37T1,
+    .wrapper-25eVIn,
+    .guildsError-b7zR5H,
+    .placeholderMask-3K9THS {
+      width: var(--server-size);
+      height: var(--server-size);
+    }
+
+    [role="group"] {
+      height: auto !important;
+    }
+
+    [class*="pill"] {
+      transform: rotate(90deg) translateY(-50%);
+      height: var(--server-size);
+      width: 4px;
+      top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+      margin-left: -2px;
+      span {
+        height: 100% !important;
+        width: 4px !important;
+        transform: scale(0,1) !important;
+        transition: 0.15s ease !important;
+        margin-left: 0;
+        border-radius: 0 4px 4px 0;
+      }
+      @for $i from 0 through 8 {
+        span[style*="height: #{$i}"] {
+          transform: scale(1,.24) !important;
+        }
+      }
+      // Hovered
+      @for $i from 9 through 20 {
+        span[style*="height: #{$i}"] {
+          transform: scale(1,.7) !important;
+        }
+      }
+      // Selected
+      @for $i from 21 through 40 {
+        span[style*="height: #{$i}"] {
+          transform: scale(1,1) !important;
+        }
+      }
+    }
+
+    .wrapper-sa6paO {
+      height: var(--server-size) !important;
+    }
+    .wrapper-21YSNc,
+    .wrapper-3Njo_c {
+      width: var(--server-container);
+    }
+
+    [class*="listItem"]:not([class*="listItemWrapper"]) {
+      width: var(--server-size);
+      transform: rotate(90deg);
+      margin: var(--server-spacing) 10px;
+      position: unset;
+    }
+
+    [class*="guildSeparator"] {
+      transform: rotate(90deg);
+      width: var(--server-size);
+    }
+
+    [class*="expandedFolderBackground"] {
+      width: var(--server-size);
+      left: 50%;
+      border-radius: 10px;
+      transform: translateX(-50%);
+    }
+
+    .folder-21wGz3 {
+      background: transparent;
+    }
+
+		&.hidden-3dXt4k + .base-3dtUhz {
+			top: 0 !important;
+		}
+  }
+  [class*="listItemTooltip"] {
+    position: absolute;
+    max-width: unset;
+    white-space: nowrap;
+    margin-left: calc(var(--server-size) / -1 - 20px);
+    top: calc(var(--server-size) - 10px);
+    [class*="tooltipPointer"] {
+      transform: rotate(180deg);
+      top: -5px;
+      right: unset;
+      left: 13px;
+      z-index: 1;
+    }
+  }
+
+  // OnlineFriendCount by Zerethox
+  .friendsOnline-2JkivW {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: calc(-50% + var(--server-spacing));
+    left: calc(-50%);
+    width: calc(var(--server-size) + var(--server-spacing));
+    display: flex;
+    justify-content: center;
+  }
+
+  // Server Folders by DevilBro and BetterFolders by Juby210 & Lighty
+  .guilds-1SWlCJ.content-Pph8t6, .BF-folderSidebar {
+    position: absolute !important;
+    top: calc(var(--server-container) * 2) !important;
+    &:not(.closed-j55_T-) + .base-3dtUhz {
+      top: calc(var(--server-container) * 2) !important;
+    }
+  }
+
+  // ReadAllNotifications by DevilBro
+  .guilds-1SWlCJ .frame-oXWS21[class*="listItem"] {
+    height: var(--server-size) !important;
+    .wrapper-1BJsBx {
+      height: 100% !important;
+    }
+    .button-Jt-tIg {
+      width: 100%;
+      height: 100% !important;
+      border-radius: 50%;
+      padding: 2px;
+      font-size: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  }
+
+  // BetterFolders by Juby210 & Lighty
+  .BF-folderSidebar {
+    top: calc(var(--server-container)) !important;
+  }
+}
+html.platform-osx #app-mount {
+  .typeMacOS-3EmCyP {
+    width: 100%;
+  }
+  .base-3dtUhz {
+    top: calc(var(--server-container) + 30px) !important;
+  }
+  #pluginNotice {
+    top: 32px;
+    z-index: 100000 !important;
+  }
+}
+
+
+body.foldercontentopened .base-3dtUhz {
+  transition: 0.2s ease !important;
+}

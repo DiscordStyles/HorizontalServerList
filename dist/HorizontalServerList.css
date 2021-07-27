@@ -19,15 +19,12 @@
   width: var(--server-size);
   padding: 0;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   height: auto;
 }
 #app-mount .guilds-1SWlCJ {
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform-origin: top left;
+  transform: rotate(-90deg);
   height: 100vw !important;
   width: var(--server-container);
   top: var(--server-container);
@@ -61,8 +58,7 @@
   height: auto !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] {
-  -webkit-transform: rotate(90deg) translateY(-50%);
-          transform: rotate(90deg) translateY(-50%);
+  transform: rotate(90deg) translateY(-50%);
   height: var(--server-size);
   width: 4px;
   top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
@@ -71,176 +67,133 @@
 #app-mount .guilds-1SWlCJ [class*=pill] span {
   height: 100% !important;
   width: 4px !important;
-  -webkit-transform: scale(0, 1) !important;
-          transform: scale(0, 1) !important;
-  -webkit-transition: 0.15s ease !important;
+  transform: scale(0, 1) !important;
   transition: 0.15s ease !important;
   margin-left: 0;
   border-radius: 0 4px 4px 0;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 0"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 1"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 2"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 3"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 4"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 5"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 6"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 7"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 8"] {
-  -webkit-transform: scale(1, 0.24) !important;
-          transform: scale(1, 0.24) !important;
+  transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 9"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 10"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 11"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 12"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 13"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 14"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 15"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 16"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 17"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 18"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 19"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 20"] {
-  -webkit-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
+  transform: scale(1, 0.7) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 21"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 22"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 23"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 24"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 25"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 26"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 27"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 28"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 29"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 30"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 31"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 32"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 33"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 34"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 35"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 36"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 37"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 38"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 39"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 40"] {
-  -webkit-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ .wrapper-sa6paO {
   height: var(--server-size) !important;
@@ -251,22 +204,19 @@
 }
 #app-mount .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
   width: var(--server-size);
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   margin: var(--server-spacing) 10px;
   position: unset;
 }
 #app-mount .guilds-1SWlCJ [class*=guildSeparator] {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   width: var(--server-size);
 }
 #app-mount .guilds-1SWlCJ [class*=expandedFolderBackground] {
   width: var(--server-size);
   left: 50%;
   border-radius: 10px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 #app-mount .guilds-1SWlCJ .folder-21wGz3 {
   background: transparent;
@@ -282,8 +232,7 @@
   top: calc(var(--server-size) - 10px);
 }
 #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
   top: -5px;
   right: unset;
   left: 13px;
@@ -291,17 +240,12 @@
 }
 #app-mount .friendsOnline-2JkivW {
   position: absolute;
-  -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
   top: calc(-50% + var(--server-spacing));
   left: calc(-50%);
   width: calc(var(--server-size) + var(--server-spacing));
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 #app-mount .guilds-1SWlCJ.content-Pph8t6, #app-mount .BF-folderSidebar {
   position: absolute !important;
@@ -322,8 +266,7 @@
   border-radius: 50%;
   padding: 2px;
   font-size: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
 }
 #app-mount .BF-folderSidebar {
@@ -342,6 +285,5 @@ html.platform-osx #app-mount #pluginNotice {
 }
 
 body.foldercontentopened .base-3dtUhz {
-  -webkit-transition: 0.2s ease !important;
   transition: 0.2s ease !important;
 }
