@@ -1,7 +1,7 @@
 {
   "name": "horizontalserverlist",
   "version": "1.0.0",
-  "description": "Discord redesigned to be simplified. Design by jacktompsett on Behance.",
+  "description": "Moves the server list from the left to the top of Discord.",
   "repository": "https://github.com/DiscordStyles/HorizontalServerList.git",
   "author": "Gibbu <Gibbu_@hotmail.com>",
   "license": "MIT",
