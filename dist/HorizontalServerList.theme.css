@@ -10,6 +10,9 @@
 
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
+/* Bottom HorizontalServerList. Simply remove the comments surrounding the @import to enable it. */
+/* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */
+
 :root {
   --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
