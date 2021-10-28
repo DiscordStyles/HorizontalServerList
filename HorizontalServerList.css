@@ -41,10 +41,10 @@
 #app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
   padding-top: 0 !important;
 }
-#app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2P_4kh) {
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2Ig28I) {
   height: auto !important;
 }
-#app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2Ig28I)[style*="height: 0px"] {
   padding-top: 1px;
 }
 #app-mount .guilds-1SWlCJ .svg-1X37T1,
@@ -199,7 +199,7 @@
   height: var(--server-size) !important;
 }
 #app-mount .guilds-1SWlCJ .wrapper-21YSNc,
-#app-mount .guilds-1SWlCJ .wrapper-3Njo_c {
+#app-mount .guilds-1SWlCJ .wrapper-shyHJt {
   width: var(--server-container);
 }
 #app-mount .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
