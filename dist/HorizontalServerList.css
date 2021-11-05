@@ -198,8 +198,7 @@
 #app-mount .guilds-1SWlCJ .wrapper-sa6paO {
   height: var(--server-size) !important;
 }
-#app-mount .guilds-1SWlCJ .wrapper-21YSNc,
-#app-mount .guilds-1SWlCJ .wrapper-3Njo_c {
+#app-mount .guilds-1SWlCJ .wrapper-shyHJt {
   width: var(--server-container);
 }
 #app-mount .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
