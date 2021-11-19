@@ -271,6 +271,15 @@
 #app-mount .BF-folderSidebar {
   top: calc(var(--server-container)) !important;
 }
+#app-mount .serverCountWrap-k8F5De {
+  height: var(--server-size);
+}
+#app-mount .serverCount-FsTTs1 {
+  white-space: pre-line;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
 
 html.platform-osx #app-mount .typeMacOS-3EmCyP {
   width: 100%;
