@@ -216,6 +216,7 @@
   left: 50%;
   border-radius: 10px;
   transform: translateX(-50%);
+  height: 100%;
 }
 #app-mount .guilds-1SWlCJ .folder-21wGz3 {
   background: transparent;
