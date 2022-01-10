@@ -2,13 +2,13 @@
  * @name Horizontal Server List
  * @author Gibbu#1211
  * @version 2.0.0
- * @invite ZHthyCw
- * @description Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes
+ * @invite ZHthyCw,gemerfoxy
+ * @description Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes. FForked to fix the canary css shenanigans.
  * @source https://github.com/DiscordStyles/HorizontalServerList
  * @website https://www.gibbu.me
 */
 
-@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://raw.githubusercontent.com/gemerfoxymk2/HorizontalServerList/deploy/dist/HorizontalServerList.css");
 
 /* Bottom HorizontalServerList. Simply remove the comments surrounding the @import to enable it. */
 /* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */
