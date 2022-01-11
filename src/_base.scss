@@ -5,7 +5,7 @@
 }
 
 #app-mount {
-  .app-1q1i1E .base-3dtUhz {
+  .app-3xd6d0 .base-2jDfDU {
     top: var(--server-container) !important;
     position: absolute !important;
     left: 0 !important;
@@ -14,7 +14,7 @@
 		max-width: 100%;
   }
 
-  .sidebar-2K8pFh {
+  .sidebar-1tnWFu {
     border-radius: 0;
   }
 
@@ -26,7 +26,7 @@
     height: auto;
   }
 
-  .guilds-1SWlCJ {
+  .guilds-2JjMmN {
     transform-origin: top left;
     transform: rotate(-90deg);
     height: 100vw !important;
@@ -44,7 +44,7 @@
       width: calc(100% + 30px);
     }
 
-    .scrollerBase-289Jih {
+    .scrollerBase-_bVAAt {
       padding-top: 0 !important;
       & > div[style]:not(.listItem-2P_4kh) {
         height: auto !important;
@@ -54,8 +54,8 @@
       }
     }
 
-    .svg-1X37T1,
-    .wrapper-25eVIn,
+    .svg-2zuE5p,
+    .wrapper-28eC3z,
     .guildsError-b7zR5H,
     .placeholderMask-3K9THS {
       width: var(--server-size);
@@ -99,10 +99,10 @@
       }
     }
 
-    .wrapper-sa6paO {
+    .wrapper-z5ab_q {
       height: var(--server-size) !important;
     }
-    .wrapper-shyHJt {
+    .wrapper-38slSD {
       width: var(--server-container);
     }
 
@@ -130,7 +130,7 @@
       background: transparent;
     }
 
-		&.hidden-3dXt4k + .base-3dtUhz {
+		&.hidden-10MsGQ + .base-2jDfDU {
 			top: 0 !important;
 		}
   }
@@ -161,18 +161,18 @@
   }
 
   // Server Folders by DevilBro and BetterFolders by Juby210 & Lighty
-  .guilds-1SWlCJ.content-Pph8t6, .BF-folderSidebar {
+  .guilds-2JjMmN.content-Pph8t6, .BF-folderSidebar {
     position: absolute !important;
     top: calc(var(--server-container) * 2) !important;
-    &:not(.closed-j55_T-) + .base-3dtUhz {
+    &:not(.closed-j55_T-) + .base-2jDfDU {
       top: calc(var(--server-container) * 2) !important;
     }
   }
 
   // ReadAllNotifications by DevilBro
-  .guilds-1SWlCJ .frame-oXWS21[class*="listItem"] {
+  .guilds-2JjMmN .frame-oXWS21[class*="listItem"] {
     height: var(--server-size) !important;
-    .wrapper-1BJsBx {
+    .wrapper-3kah-n {
       height: 100% !important;
     }
     .button-Jt-tIg {
@@ -206,7 +206,7 @@ html.platform-osx #app-mount {
   .typeMacOS-3EmCyP {
     width: 100%;
   }
-  .base-3dtUhz {
+  .base-2jDfDU {
     top: calc(var(--server-container) + 30px) !important;
   }
   #pluginNotice {
@@ -216,6 +216,6 @@ html.platform-osx #app-mount {
 }
 
 
-body.foldercontentopened .base-3dtUhz {
+body.foldercontentopened .base-2jDfDU {
   transition: 0.2s ease !important;
 }
