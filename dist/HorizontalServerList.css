@@ -252,7 +252,7 @@
   top: calc(var(--server-container) * 2) !important;
 }
 #app-mount .guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-) + .base-2jDfDU, #app-mount .BF-folderSidebar:not(.closed-j55_T-) + .base-2jDfDU {
-  top: calc(var(--server-container) * 2) !important;
+  top: calc(var(--server-container) * 2.5) !important;
 }
 #app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] {
   height: var(--server-size) !important;
