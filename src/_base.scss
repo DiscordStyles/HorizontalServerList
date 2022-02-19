@@ -57,7 +57,7 @@
     .svg-2zuE5p,
     .wrapper-28eC3z,
     .guildsError-b7zR5H,
-    .placeholderMask-3K9THS {
+    .placeholderMask-2FHNZU {
       width: var(--server-size);
       height: var(--server-size);
     }
@@ -128,6 +128,18 @@
 
     .folder-21wGz3 {
       background: transparent;
+    }
+
+    // Dragging server indicator
+    .wrapper-3XVBev {
+      top: 0;
+      bottom: 0;
+    }
+    .target-1eRTCg::before {
+      top: 0;
+      height: var(--server-size);
+      width: 4px;
+      left: -6px;
     }
 
 		&.hidden-10MsGQ + .base-2jDfDU {

@@ -5,7 +5,7 @@
 	"dev": [
 		{
 			"target": ["src", "main.scss"],
-			"output": ["HorizontalServerList.theme.css"]
+			"output": "HorizontalServerList.theme.css"
 		}
 	],
 	"build": [
