@@ -2,6 +2,7 @@
   --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
   --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
   --server-container: calc(var(--server-size) + 20px);
+  --server-direction: var(--HSL-server-direction, column);
 }
 
 #app-mount {
@@ -45,12 +46,21 @@
     }
 
     .scrollerBase-_bVAAt {
-      padding-top: 0 !important;
+      padding: var(--server-spacing) 0 !important;
+      display: flex;
+      flex-direction: var(--server-direction);
+      gap: var(--server-spacing);
+
       & > div[style]:not(.listItem-2P_4kh) {
         height: auto !important;
         &[style*="height: 0px"] {
           padding-top: 1px;
         }
+      }
+      & > div[aria-label] {
+        display: flex;
+        flex-direction: var(--server-direction);
+        gap: var(--server-spacing);
       }
     }
 
@@ -104,12 +114,20 @@
     }
     .wrapper-38slSD {
       width: var(--server-container);
+      display: flex;
+      flex-direction: var(--server-direction);
+      gap: var(--server-spacing);
+      ul[role="group"] {
+        display: flex;
+        flex-direction: var(--server-direction);
+        gap: var(--server-spacing);
+      }
     }
 
     [class*="listItem"]:not([class*="listItemWrapper"]) {
       width: var(--server-size);
       transform: rotate(90deg);
-      margin: var(--server-spacing) 10px;
+      margin: 0 10px;
       position: unset;
     }
 
