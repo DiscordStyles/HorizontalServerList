@@ -50,7 +50,7 @@
 #app-mount .guilds-2JjMmN .svg-2zuE5p,
 #app-mount .guilds-2JjMmN .wrapper-28eC3z,
 #app-mount .guilds-2JjMmN .guildsError-b7zR5H,
-#app-mount .guilds-2JjMmN .placeholderMask-3K9THS {
+#app-mount .guilds-2JjMmN .placeholderMask-2FHNZU {
   width: var(--server-size);
   height: var(--server-size);
 }
@@ -220,6 +220,16 @@
 }
 #app-mount .guilds-2JjMmN .folder-21wGz3 {
   background: transparent;
+}
+#app-mount .guilds-2JjMmN .wrapper-3XVBev {
+  top: 0;
+  bottom: 0;
+}
+#app-mount .guilds-2JjMmN .target-1eRTCg::before {
+  top: 0;
+  height: var(--server-size);
+  width: 4px;
+  left: -6px;
 }
 #app-mount .guilds-2JjMmN.hidden-10MsGQ + .base-2jDfDU {
   top: 0 !important;
