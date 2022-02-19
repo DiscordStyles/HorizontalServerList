@@ -2,6 +2,7 @@
   --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
   --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
   --server-container: calc(var(--server-size) + 20px);
+  --server-direction: var(--HSL-server-direction, column);
 }
 
 #app-mount .app-3xd6d0 .base-2jDfDU {
@@ -39,13 +40,21 @@
   width: calc(100% + 30px);
 }
 #app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
-  padding-top: 0 !important;
+  padding: var(--server-spacing) 0 !important;
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
 }
 #app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[style]:not(.listItem-2P_4kh) {
   height: auto !important;
 }
 #app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
   padding-top: 1px;
+}
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[aria-label] {
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
 }
 #app-mount .guilds-2JjMmN .svg-2zuE5p,
 #app-mount .guilds-2JjMmN .wrapper-28eC3z,
@@ -200,11 +209,19 @@
 }
 #app-mount .guilds-2JjMmN .wrapper-38slSD {
   width: var(--server-container);
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
+}
+#app-mount .guilds-2JjMmN .wrapper-38slSD ul[role=group] {
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
 }
 #app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
   width: var(--server-size);
   transform: rotate(90deg);
-  margin: var(--server-spacing) 10px;
+  margin: 0 10px;
   position: unset;
 }
 #app-mount .guilds-2JjMmN [class*=guildSeparator] {
