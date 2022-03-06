@@ -1,12 +1,13 @@
-## Horizontal Server List
+# Horizontal Server List
+
 Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes
 
-- - -
+![Preview](https://i.imgur.com/yVDtwvF.png)
+
+## Download
+
 BetterDiscord Download: [https://betterdiscord.app/theme/Horizontal%20Server%20List](https://betterdiscord.app/Download?id=124)  
 Powercord Install: `git clone https://github.com/DiscordStyles/HorizontalServerlist`
-- - -
-
-![Preview](https://i.imgur.com/yVDtwvF.png)  
 
 ## Contributing
 
