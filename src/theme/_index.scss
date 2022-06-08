@@ -3,6 +3,7 @@
   --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
   --server-container: calc(var(--server-size) + 20px);
   --server-direction: var(--HSL-server-direction, column);
+  --server-alignment: var(--HSL-server-alignment, flex-start);
 }
 
 #app-mount {
@@ -50,6 +51,8 @@
       display: flex;
       flex-direction: var(--server-direction);
       gap: var(--server-spacing);
+      align-items: var(--server-alignment);
+      justify-content: var(--server-alignment);
 
       & > div[style]:not(.listItem-2P_4kh) {
         height: auto !important;
