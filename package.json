@@ -10,7 +10,8 @@
     "dev": "bd-scss dev",
     "build": "bd-scss build"
   },
+  "type": "module",
   "dependencies": {
-    "bd-scss": "^1.1.1"
+    "bd-scss": "^2.0.9"
   }
 }
