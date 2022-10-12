@@ -326,3 +326,7 @@ html.platform-osx #app-mount #pluginNotice {
 body.foldercontentopened .base-2jDfDU {
   transition: 0.2s ease !important;
 }
+
+.accountProfilePopoutWrapper-3GskID {
+  left: 0;
+}
