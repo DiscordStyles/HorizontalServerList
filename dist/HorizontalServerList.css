@@ -40,7 +40,7 @@
 #app-mount .guilds-2JjMmN .scrollerWrap-1IAIlv {
   width: calc(100% + 30px);
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
   padding: var(--server-spacing) 0 !important;
   display: flex;
   flex-direction: var(--server-direction);
@@ -48,13 +48,13 @@
   align-items: var(--server-alignment);
   justify-content: var(--server-alignment);
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[style]:not(.listItem-2P_4kh) {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 > div[style]:not(.listItem-2P_4kh) {
   height: auto !important;
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
   padding-top: 1px;
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[aria-label] {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 > div[aria-label] {
   display: flex;
   flex-direction: var(--server-direction);
   gap: var(--server-spacing);
@@ -238,7 +238,7 @@
   transform: translateX(-50%);
   height: 100%;
 }
-#app-mount .guilds-2JjMmN .folder-21wGz3 {
+#app-mount .guilds-2JjMmN .folder-241Joy {
   background: transparent;
 }
 #app-mount .guilds-2JjMmN .wrapper-3XVBev {
