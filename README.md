@@ -7,7 +7,8 @@ Moves the server list from the left to the top of Discord. Compatible with Serve
 ## Download
 
 BetterDiscord Download: [https://betterdiscord.app/theme/Horizontal%20Server%20List](https://betterdiscord.app/Download?id=124)  
-Powercord Install: `git clone https://github.com/DiscordStyles/HorizontalServerlist`
+Powercord Install: `git clone https://github.com/DiscordStyles/HorizontalServerlist`  
+Vencord link: `https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css`
 
 ## Contributing
 
