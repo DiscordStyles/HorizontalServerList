@@ -6,6 +6,37 @@
   --server-alignment: var(--HSL-server-alignment, flex-start);
 }
 
+#app-mount .guilds-2JjMmN {
+  width: var(--server-container);
+}
+#app-mount .guilds-2JjMmN .scrollerWrap-1IAIlv {
+  width: calc(100% + 30px);
+}
+#app-mount .guilds-2JjMmN .svg-2ifYOU,
+#app-mount .guilds-2JjMmN .wrapper-2PSQCG,
+#app-mount .guilds-2JjMmN .guildsError-b7zR5H,
+#app-mount .guilds-2JjMmN .placeholderMask-2FHNZU {
+  width: var(--server-size);
+  height: var(--server-size);
+}
+#app-mount .guilds-2JjMmN [role=group] {
+  height: auto !important;
+}
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 50%;
+  translate: -50% 0;
+}
+#app-mount .guilds-2JjMmN .wrapper-z5ab_q {
+  height: var(--server-size) !important;
+}
+#app-mount .guilds-2JjMmN .wrapper-38slSD {
+  width: var(--server-container);
+}
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+  width: var(--server-container);
+}
+
 #app-mount .app-3xd6d0 .base-2jDfDU {
   top: var(--server-container) !important;
   position: absolute !important;
@@ -28,7 +59,6 @@
   transform-origin: top left;
   transform: rotate(-90deg);
   height: 100vw !important;
-  width: var(--server-container);
   top: var(--server-container);
   bottom: unset;
   position: absolute !important;
@@ -36,9 +66,6 @@
 }
 #app-mount .guilds-2JjMmN > [data-list-id=guildsnav] {
   margin-bottom: 0 !important;
-}
-#app-mount .guilds-2JjMmN .scrollerWrap-1IAIlv {
-  width: calc(100% + 30px);
 }
 #app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
   padding: var(--server-spacing) 0 !important;
@@ -58,16 +85,6 @@
   display: flex;
   flex-direction: var(--server-direction);
   gap: var(--server-spacing);
-}
-#app-mount .guilds-2JjMmN .svg-2ifYOU,
-#app-mount .guilds-2JjMmN .wrapper-2PSQCG,
-#app-mount .guilds-2JjMmN .guildsError-b7zR5H,
-#app-mount .guilds-2JjMmN .placeholderMask-2FHNZU {
-  width: var(--server-size);
-  height: var(--server-size);
-}
-#app-mount .guilds-2JjMmN [role=group] {
-  height: auto !important;
 }
 #app-mount .guilds-2JjMmN [class*=pill] {
   transform: rotate(90deg) translateY(-50%);
@@ -207,11 +224,7 @@
 #app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 40"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-2JjMmN .wrapper-z5ab_q {
-  height: var(--server-size) !important;
-}
 #app-mount .guilds-2JjMmN .wrapper-38slSD {
-  width: var(--server-container);
   display: flex;
   flex-direction: var(--server-direction);
   gap: var(--server-spacing);
@@ -232,10 +245,7 @@
   width: var(--server-size);
 }
 #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
-  width: var(--server-size);
-  left: 50%;
   border-radius: 10px;
-  transform: translateX(-50%);
   height: 100%;
 }
 #app-mount .guilds-2JjMmN .folder-241Joy {
