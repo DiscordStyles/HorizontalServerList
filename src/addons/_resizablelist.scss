@@ -1,0 +1,32 @@
+@use '../theme/vars';
+
+#app-mount .guilds-2JjMmN {
+	width: var(--server-container);
+	.scrollerWrap-1IAIlv {
+		width: calc(100% + 30px);
+	}
+	.svg-2ifYOU,
+	.wrapper-2PSQCG,
+	.guildsError-b7zR5H,
+	.placeholderMask-2FHNZU {
+		width: var(--server-size);
+		height: var(--server-size);
+	}
+	[role='group'] {
+		height: auto !important;
+	}
+	[class*='expandedFolderBackground'] {
+		width: var(--server-size);
+		left: 50%;
+		translate: -50% 0;
+	}
+	.wrapper-z5ab_q {
+		height: var(--server-size) !important;
+	}
+	.wrapper-38slSD {
+		width: var(--server-container);
+	}
+	[class*='listItem']:not([class*='listItemWrapper']) {
+		width: var(--server-container);
+	}
+}

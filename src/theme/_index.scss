@@ -1,10 +1,5 @@
-:root {
-	--server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
-	--server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
-	--server-container: calc(var(--server-size) + 20px);
-	--server-direction: var(--HSL-server-direction, column);
-	--server-alignment: var(--HSL-server-alignment, flex-start);
-}
+// Anything related to resizing the list, will be placed in here.
+@use '../addons/resizablelist';
 
 #app-mount {
 	.app-3xd6d0 .base-2jDfDU {
@@ -32,7 +27,6 @@
 		transform-origin: top left;
 		transform: rotate(-90deg);
 		height: 100vw !important;
-		width: var(--server-container);
 		top: var(--server-container);
 		bottom: unset;
 		position: absolute !important;
@@ -40,10 +34,6 @@
 
 		& > [data-list-id='guildsnav'] {
 			margin-bottom: 0 !important;
-		}
-
-		.scrollerWrap-1IAIlv {
-			width: calc(100% + 30px);
 		}
 
 		.scrollerBase-1Pkza4 {
@@ -65,18 +55,6 @@
 				flex-direction: var(--server-direction);
 				gap: var(--server-spacing);
 			}
-		}
-
-		.svg-2ifYOU,
-		.wrapper-2PSQCG,
-		.guildsError-b7zR5H,
-		.placeholderMask-2FHNZU {
-			width: var(--server-size);
-			height: var(--server-size);
-		}
-
-		[role='group'] {
-			height: auto !important;
 		}
 
 		[class*='pill'] {
@@ -112,11 +90,7 @@
 			}
 		}
 
-		.wrapper-z5ab_q {
-			height: var(--server-size) !important;
-		}
 		.wrapper-38slSD {
-			width: var(--server-container);
 			display: flex;
 			flex-direction: var(--server-direction);
 			gap: var(--server-spacing);
@@ -140,10 +114,7 @@
 		}
 
 		[class*='expandedFolderBackground'] {
-			width: var(--server-size);
-			left: 50%;
 			border-radius: 10px;
-			transform: translateX(-50%);
 			height: 100%;
 		}
 
