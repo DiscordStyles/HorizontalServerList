@@ -1,5 +1,5 @@
 body #app-mount {
-	.app-3xd6d0 .base-2jDfDU {
+	.app-1BipOi .base-2jDfDU {
 		top: 0 !important;
 		bottom: var(--server-container) !important;
 	}
@@ -8,7 +8,7 @@ body #app-mount {
 		left: 100vw;
 		bottom: 0 !important;
 		transform-origin: bottom left;
-		[class*=pill] {
+		[class*='pill'] {
 			top: unset !important;
 			bottom: calc((var(--server-size) / -1) + (var(--server-size) / 2) - 8px) !important;
 			span {
@@ -24,12 +24,12 @@ body #app-mount {
 			bottom: calc(var(--server-container) * 2) !important;
 		}
 	}
-	[class*=listItemTooltip] {
+	[class*='listItemTooltip'] {
 		position: absolute;
 		white-space: nowrap;
 		top: calc(var(--server-size) / -1 - 30px) !important;
 		margin-left: calc(var(--server-size) / -1 - 20px);
-		[class*=tooltipPointer] {
+		[class*='tooltipPointer'] {
 			transform: rotate(0) !important;
 			top: unset !important;
 			bottom: -10px !important;
