@@ -1,25 +1,25 @@
-body #app-mount .app-1BipOi .base-2jDfDU {
+body #app-mount .app_b1f720 .base__3e6af {
   top: 0 !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds-2JjMmN {
+body #app-mount .guilds__2b93a {
   top: unset !important;
   left: 100vw;
   bottom: 0 !important;
   transform-origin: bottom left;
 }
-body #app-mount .guilds-2JjMmN [class*=pill] {
+body #app-mount .guilds__2b93a [class*=pill] {
   top: unset !important;
   bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
 }
-body #app-mount .guilds-2JjMmN [class*=pill] span {
+body #app-mount .guilds__2b93a [class*=pill] span {
   border-radius: 4px 0 0 4px;
 }
-body #app-mount .guilds-2JjMmN.content-Pph8t6 {
+body #app-mount .guilds__2b93a.content-Pph8t6 {
   top: unset !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-) + .base-2jDfDU {
+body #app-mount .guilds__2b93a.content-Pph8t6:not(.closed-j55_T-) + .base__3e6af {
   top: 0 !important;
   bottom: calc(var(--server-container) * 2) !important;
 }
@@ -35,6 +35,6 @@ body #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
   bottom: -10px !important;
 }
 
-html.platform-osx #app-mount .base-2jDfDU {
+html.platform-osx #app-mount .base__3e6af {
   top: 32px !important;
 }
