@@ -1,14 +1,14 @@
 @use '../theme/vars';
 
-#app-mount .guilds-2JjMmN {
+#app-mount .guilds__2b93a {
 	width: var(--server-container);
 	.scrollerWrap-1IAIlv {
 		width: calc(100% + 30px);
 	}
-	.svg-2ifYOU,
-	.wrapper-2PSQCG,
+	.svg_ad7356,
+	.wrapper__3af0b,
 	.guildsError-b7zR5H,
-	.placeholderMask-2FHNZU {
+	.placeholderMask__94802 {
 		width: var(--server-size);
 		height: var(--server-size);
 	}
@@ -20,10 +20,10 @@
 		left: 50%;
 		translate: -50% 0;
 	}
-	.wrapper-z5ab_q {
+	.wrapper__3670f {
 		height: var(--server-size) !important;
 	}
-	.wrapper-38slSD {
+	.wrapper_ed1dea {
 		width: var(--server-container);
 	}
 	[class*='listItem']:not([class*='listItemWrapper']) {
