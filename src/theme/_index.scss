@@ -36,7 +36,7 @@
 			margin-bottom: 0 !important;
 		}
 
-		.scrollerBase_dc3aa9 {
+		.scrollerBase__2b744 {
 			padding: var(--server-spacing) 0 !important;
 			display: flex;
 			flex-direction: var(--server-direction);
@@ -104,7 +104,7 @@
 		[class*='listItem']:not([class*='listItemWrapper']) {
 			width: var(--server-size);
 			transform: rotate(90deg);
-			margin: 0 10px 10px;
+			margin: 0 10px;
 			position: unset;
 		}
 
