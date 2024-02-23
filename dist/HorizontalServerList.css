@@ -237,7 +237,7 @@
 #app-mount .guilds__2b93a [class*=listItem]:not([class*=listItemWrapper]) {
   width: var(--server-size);
   transform: rotate(90deg);
-  margin: 0 10px;
+  margin: 0 10px 10px;
   position: unset;
 }
 #app-mount .guilds__2b93a [class*=guildSeparator] {
