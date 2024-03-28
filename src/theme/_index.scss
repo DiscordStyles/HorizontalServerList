@@ -2,7 +2,7 @@
 @use '../addons/resizablelist';
 
 #app-mount {
-	.app_b1f720 .base__3e6af {
+	.app_b1f720 .base_c0676e {
 		top: var(--server-container) !important;
 		position: absolute !important;
 		left: 0 !important;
@@ -11,7 +11,7 @@
 		max-width: 100%;
 	}
 
-	.sidebar_ded4b5 {
+	.sidebar_e031be {
 		border-radius: 0;
 	}
 
@@ -36,7 +36,7 @@
 			margin-bottom: 0 !important;
 		}
 
-		.scrollerBase__2b744 {
+		.scrollerBase__65223 {
 			padding: var(--server-spacing) 0 !important;
 			display: flex;
 			flex-direction: var(--server-direction);
@@ -90,7 +90,7 @@
 			}
 		}
 
-		.wrapper_ed1dea {
+		.wrapper__832f2 {
 			display: flex;
 			flex-direction: var(--server-direction);
 			gap: var(--server-spacing);
@@ -123,18 +123,18 @@
 		}
 
 		// Dragging server indicator
-		.wrapper_a54cba {
+		.wrapper__0a9af {
 			top: 0;
 			bottom: 0;
 		}
-		.target__47b05::before {
+		.target__2c5c2::before {
 			top: 0;
 			height: var(--server-size);
 			width: 4px;
 			left: -6px;
 		}
 
-		&.hidden__7c832 + .base__3e6af {
+		&.hidden__7c832 + .base_c0676e {
 			top: 0 !important;
 		}
 	}
@@ -169,7 +169,7 @@
 	.BF-folderSidebar {
 		position: absolute !important;
 		top: calc(var(--server-container) * 2) !important;
-		&:not(.closed-j55_T-) + .base__3e6af {
+		&:not(.closed-j55_T-) + .base_c0676e {
 			top: calc(var(--server-container) * 2.5) !important;
 		}
 	}
@@ -177,7 +177,7 @@
 	// ReadAllNotifications by DevilBro
 	.guilds__2b93a .frame-oXWS21[class*='listItem'] {
 		height: var(--server-size) !important;
-		.wrapper_d281dd {
+		.wrapper__8436d {
 			height: 100% !important;
 		}
 		.button-Jt-tIg {
@@ -208,10 +208,10 @@
 	}
 }
 html.platform-osx #app-mount {
-	.typeMacOS__496b0 {
+	.typeMacOS_cacc59 {
 		width: 100%;
 	}
-	.base__3e6af {
+	.base_c0676e {
 		top: calc(var(--server-container) + 30px) !important;
 	}
 	#pluginNotice {
@@ -220,11 +220,11 @@ html.platform-osx #app-mount {
 	}
 }
 
-body.foldercontentopened .base__3e6af {
+body.foldercontentopened .base_c0676e {
 	transition: 0.2s ease !important;
 }
 
 // User area being offset
-.accountProfilePopoutWrapper_af829a {
+.accountProfilePopoutWrapper_d4887f {
 	left: 0;
 }
