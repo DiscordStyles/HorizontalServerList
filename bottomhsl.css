@@ -1,4 +1,4 @@
-body #app-mount .app_b1f720 .base__3e6af {
+body #app-mount .app_b1f720 .base_c0676e {
   top: 0 !important;
   bottom: var(--server-container) !important;
 }
@@ -19,7 +19,7 @@ body #app-mount .guilds__2b93a.content-Pph8t6 {
   top: unset !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds__2b93a.content-Pph8t6:not(.closed-j55_T-) + .base__3e6af {
+body #app-mount .guilds__2b93a.content-Pph8t6:not(.closed-j55_T-) + .base_c0676e {
   top: 0 !important;
   bottom: calc(var(--server-container) * 2) !important;
 }
@@ -35,6 +35,6 @@ body #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
   bottom: -10px !important;
 }
 
-html.platform-osx #app-mount .base__3e6af {
+html.platform-osx #app-mount .base_c0676e {
   top: 32px !important;
 }

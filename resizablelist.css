@@ -12,10 +12,10 @@
 #app-mount .guilds__2b93a .scrollerWrap-1IAIlv {
   width: calc(100% + 30px);
 }
-#app-mount .guilds__2b93a .svg_ad7356,
-#app-mount .guilds__2b93a .wrapper__3af0b,
+#app-mount .guilds__2b93a .svg__34dd4,
+#app-mount .guilds__2b93a .wrapper__9916c,
 #app-mount .guilds__2b93a .guildsError-b7zR5H,
-#app-mount .guilds__2b93a .placeholderMask__94802 {
+#app-mount .guilds__2b93a .placeholderMask_ca6625 {
   width: var(--server-size);
   height: var(--server-size);
 }
@@ -27,10 +27,10 @@
   left: 50%;
   translate: -50% 0;
 }
-#app-mount .guilds__2b93a .wrapper__3670f {
+#app-mount .guilds__2b93a .wrapper_b4903b {
   height: var(--server-size) !important;
 }
-#app-mount .guilds__2b93a .wrapper_ed1dea {
+#app-mount .guilds__2b93a .wrapper__832f2 {
   width: var(--server-container);
 }
 #app-mount .guilds__2b93a [class*=listItem]:not([class*=listItemWrapper]) {
