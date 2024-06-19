@@ -6,33 +6,33 @@
   --server-alignment: var(--HSL-server-alignment, flex-start);
 }
 
-#app-mount .guilds__2b93a {
+#app-mount .guilds_a4d4d9 {
   width: var(--server-container);
 }
-#app-mount .guilds__2b93a .scrollerWrap-1IAIlv {
+#app-mount .guilds_a4d4d9 .scrollerWrap-1IAIlv {
   width: calc(100% + 30px);
 }
-#app-mount .guilds__2b93a .svg__34dd4,
-#app-mount .guilds__2b93a .wrapper__9916c,
-#app-mount .guilds__2b93a .guildsError-b7zR5H,
-#app-mount .guilds__2b93a .placeholderMask_ca6625 {
+#app-mount .guilds_a4d4d9 .svg_c5f96a,
+#app-mount .guilds_a4d4d9 .wrapper_c5f96a,
+#app-mount .guilds_a4d4d9 .guildsError-b7zR5H,
+#app-mount .guilds_a4d4d9 .placeholderMask_f734d8 {
   width: var(--server-size);
   height: var(--server-size);
 }
-#app-mount .guilds__2b93a [role=group] {
+#app-mount .guilds_a4d4d9 [role=group] {
   height: auto !important;
 }
-#app-mount .guilds__2b93a [class*=expandedFolderBackground] {
+#app-mount .guilds_a4d4d9 [class*=expandedFolderBackground] {
   width: var(--server-size);
   left: 50%;
   translate: -50% 0;
 }
-#app-mount .guilds__2b93a .wrapper_b4903b {
+#app-mount .guilds_a4d4d9 .wrapper_fd07a3 {
   height: var(--server-size) !important;
 }
-#app-mount .guilds__2b93a .wrapper__832f2 {
+#app-mount .guilds_a4d4d9 .wrapper_bc7085 {
   width: var(--server-container);
 }
-#app-mount .guilds__2b93a [class*=listItem]:not([class*=listItemWrapper]) {
+#app-mount .guilds_a4d4d9 [class*=listItem]:not([class*=listItemWrapper]) {
   width: var(--server-container);
 }
