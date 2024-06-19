@@ -1,9 +1,9 @@
 body #app-mount {
-	.app_b1f720 .base_c0676e {
+	.app_bd26cc .base_a4d4d9 {
 		top: 0 !important;
 		bottom: var(--server-container) !important;
 	}
-	.guilds__2b93a {
+	.guilds_a4d4d9 {
 		top: unset !important;
 		left: 100vw;
 		bottom: 0 !important;
@@ -16,10 +16,10 @@ body #app-mount {
 			}
 		}
 	}
-	.guilds__2b93a.content-Pph8t6 {
+	.guilds_a4d4d9.content-Pph8t6 {
 		top: unset !important;
 		bottom: var(--server-container) !important;
-		&:not(.closed-j55_T-) + .base_c0676e {
+		&:not(.closed-j55_T-) + .base_a4d4d9 {
 			top: 0 !important;
 			bottom: calc(var(--server-container) * 2) !important;
 		}
@@ -36,6 +36,6 @@ body #app-mount {
 		}
 	}
 }
-html.platform-osx #app-mount .base_c0676e {
+html.platform-osx #app-mount .base_a4d4d9 {
 	top: 32px !important;
 }

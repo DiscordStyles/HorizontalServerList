@@ -2,7 +2,7 @@
 @use '../addons/resizablelist';
 
 #app-mount {
-	.app_b1f720 .base_c0676e {
+	.app_bd26cc .base_a4d4d9 {
 		top: var(--server-container) !important;
 		position: absolute !important;
 		left: 0 !important;
@@ -11,7 +11,7 @@
 		max-width: 100%;
 	}
 
-	.sidebar_e031be {
+	.sidebar_a4d4d9 {
 		border-radius: 0;
 	}
 
@@ -23,7 +23,7 @@
 		height: auto;
 	}
 
-	.guilds__2b93a {
+	.guilds_a4d4d9 {
 		transform-origin: top left;
 		transform: rotate(-90deg);
 		height: 100vw !important;
@@ -36,7 +36,7 @@
 			margin-bottom: 0 !important;
 		}
 
-		.scrollerBase__65223 {
+		.scrollerBase_c49869 {
 			padding: var(--server-spacing) 0 !important;
 			display: flex;
 			flex-direction: var(--server-direction);
@@ -90,7 +90,7 @@
 			}
 		}
 
-		.wrapper__832f2 {
+		.wrapper_bc7085 {
 			display: flex;
 			flex-direction: var(--server-direction);
 			gap: var(--server-spacing);
@@ -118,23 +118,23 @@
 			height: 100%;
 		}
 
-		.folder__17546 {
+		.folder_bc7085 {
 			background: transparent;
 		}
 
 		// Dragging server indicator
-		.wrapper__0a9af {
+		.wrapper_b7c66a {
 			top: 0;
 			bottom: 0;
 		}
-		.target__2c5c2::before {
+		.target_b7c66a::before {
 			top: 0;
 			height: var(--server-size);
 			width: 4px;
 			left: -6px;
 		}
 
-		&.hidden__7c832 + .base_c0676e {
+		&.hidden_fea3ef + .base_a4d4d9 {
 			top: 0 !important;
 		}
 	}
@@ -165,17 +165,17 @@
 	}
 
 	// Server Folders by DevilBro and BetterFolders by Juby210 & Lighty
-	.guilds__2b93a.content-Pph8t6,
+	.guilds_a4d4d9.content-Pph8t6,
 	.BF-folderSidebar {
 		position: absolute !important;
 		top: calc(var(--server-container) * 2) !important;
-		&:not(.closed-j55_T-) + .base_c0676e {
+		&:not(.closed-j55_T-) + .base_a4d4d9 {
 			top: calc(var(--server-container) * 2.5) !important;
 		}
 	}
 
 	// ReadAllNotifications by DevilBro
-	.guilds__2b93a .frame-oXWS21[class*='listItem'] {
+	.guilds_a4d4d9 .frame-oXWS21[class*='listItem'] {
 		height: var(--server-size) !important;
 		.wrapper__8436d {
 			height: 100% !important;
@@ -208,10 +208,10 @@
 	}
 }
 html.platform-osx #app-mount {
-	.typeMacOS_cacc59 {
+	.typeMacOS_a934d8 {
 		width: 100%;
 	}
-	.base_c0676e {
+	.base_a4d4d9 {
 		top: calc(var(--server-container) + 30px) !important;
 	}
 	#pluginNotice {
@@ -220,11 +220,11 @@ html.platform-osx #app-mount {
 	}
 }
 
-body.foldercontentopened .base_c0676e {
+body.foldercontentopened .base_a4d4d9 {
 	transition: 0.2s ease !important;
 }
 
 // User area being offset
-.accountProfilePopoutWrapper_d4887f {
+.accountProfilePopoutWrapper_b2ca13 {
 	left: 0;
 }

@@ -1,14 +1,14 @@
 @use '../theme/vars';
 
-#app-mount .guilds__2b93a {
+#app-mount .guilds_a4d4d9 {
 	width: var(--server-container);
 	.scrollerWrap-1IAIlv {
 		width: calc(100% + 30px);
 	}
-	.svg__34dd4,
-	.wrapper__9916c,
+	.svg_c5f96a,
+	.wrapper_c5f96a,
 	.guildsError-b7zR5H,
-	.placeholderMask_ca6625 {
+	.placeholderMask_f734d8 {
 		width: var(--server-size);
 		height: var(--server-size);
 	}
@@ -20,10 +20,10 @@
 		left: 50%;
 		translate: -50% 0;
 	}
-	.wrapper_b4903b {
+	.wrapper_fd07a3 {
 		height: var(--server-size) !important;
 	}
-	.wrapper__832f2 {
+	.wrapper_bc7085 {
 		width: var(--server-container);
 	}
 	[class*='listItem']:not([class*='listItemWrapper']) {
