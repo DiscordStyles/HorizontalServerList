@@ -154,7 +154,7 @@
 	}
 
 	// OnlineFriendCount by Zerethox
-	.friendsOnline-2JkivW {
+	.friendsOnline-2JkivWm, .friendsOnline_2JkivW {
 		position: absolute;
 		transform: translate(-50%, 50%);
 		top: calc(-50% + var(--server-spacing));
@@ -165,7 +165,7 @@
 	}
 
 	// Server Folders by DevilBro and BetterFolders by Juby210 & Lighty
-	.guilds_a4d4d9.content-Pph8t6,
+	.guilds_a4d4d9.content_Pph8t6,
 	.BF-folderSidebar {
 		position: absolute !important;
 		top: calc(var(--server-container) * 2) !important;
@@ -175,7 +175,7 @@
 	}
 
 	// ReadAllNotifications by DevilBro
-	.guilds_a4d4d9 .frame-oXWS21[class*='listItem'] {
+	.guilds_a4d4d9 .frame_oXWS21[class*='listItem'] {
 		height: var(--server-size) !important;
 		.wrapper__8436d {
 			height: 100% !important;
@@ -197,10 +197,10 @@
 	}
 
 	// ServerCounter by DevilBro
-	.serverCountWrap-k8F5De {
+	.serverCountWrap_k8F5De {
 		height: var(--server-size);
 	}
-	.serverCount-FsTTs1 {
+	.serverCount_FsTTs1 {
 		white-space: pre-line;
 		font-size: 12px;
 		display: flex;
@@ -220,7 +220,7 @@ html.platform-osx #app-mount {
 	}
 }
 
-body.foldercontentopened .base_a4d4d9 {
+body.folderContentIsOpen_zz6FgW .base_a4d4d9 {
 	transition: 0.2s ease !important;
 }
 
