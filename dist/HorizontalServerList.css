@@ -294,7 +294,7 @@
 }
 #app-mount .guilds_a4d4d9.content_Pph8t6:not(.closed_j55_T-) + .base_a4d4d9,
 #app-mount .BF-folderSidebar:not(.closed-j55_T-) + .base_a4d4d9 {
-  top: calc(var(--server-container) * 2.5) !important;
+  top: calc(var(--server-container) * 2) !important;
 }
 #app-mount .guilds_a4d4d9 .frame_oXWS21[class*=listItem] {
   height: var(--server-size) !important;
