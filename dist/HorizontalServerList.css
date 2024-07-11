@@ -281,8 +281,8 @@
 #app-mount .friendsOnline_2JkivW {
   position: absolute;
   transform: translate(-50%, 50%);
-  top: calc(-50% + var(--server-spacing));
-  left: -50%;
+  top: calc(-50% + var(--server-spacing) + 3px);
+  left: -25%;
   width: calc(var(--server-size) + var(--server-spacing));
   display: flex;
   justify-content: center;
@@ -299,7 +299,7 @@
 #app-mount .guilds_a4d4d9 .frame_oXWS21[class*=listItem] {
   height: var(--server-size) !important;
 }
-#app-mount .guilds_a4d4d9 .frame_oXWS21[class*=listItem] .wrapper__8436d {
+#app-mount .guilds_a4d4d9 .frame_oXWS21[class*=listItem] .innerFrame_8Hg64E {
   height: 100% !important;
 }
 #app-mount .guilds_a4d4d9 .frame_oXWS21[class*=listItem] .button_Jt-tIg {
