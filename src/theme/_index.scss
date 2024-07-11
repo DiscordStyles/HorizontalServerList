@@ -157,8 +157,8 @@
 	.friendsOnline-2JkivWm, .friendsOnline_2JkivW {
 		position: absolute;
 		transform: translate(-50%, 50%);
-		top: calc(-50% + var(--server-spacing));
-		left: calc(-50%);
+		top: calc(-50% + var(--server-spacing) + 3px);
+		left: -25%;
 		width: calc(var(--server-size) + var(--server-spacing));
 		display: flex;
 		justify-content: center;
@@ -169,7 +169,7 @@
 	.BF-folderSidebar {
 		position: absolute !important;
 		top: calc(var(--server-container) * 2) !important;
-		&:not(.closed-j55_T-) + .base_a4d4d9 {
+		&:not(.closed_j55_T-) + .base_a4d4d9 {
 			top: calc(var(--server-container) * 2.5) !important;
 		}
 	}
@@ -177,10 +177,10 @@
 	// ReadAllNotifications by DevilBro
 	.guilds_a4d4d9 .frame_oXWS21[class*='listItem'] {
 		height: var(--server-size) !important;
-		.wrapper__8436d {
+		.innerFrame_8Hg64E {
 			height: 100% !important;
 		}
-		.button-Jt-tIg {
+		.button_Jt-tIg {
 			width: 100%;
 			height: 100% !important;
 			border-radius: 50%;
