@@ -67,6 +67,10 @@
 #app-mount .guilds_a4d4d9 > [data-list-id=guildsnav] {
   margin-bottom: 0 !important;
 }
+#app-mount .guilds_a4d4d9 .itemsContainer_fea3ef {
+  justify-content: var(--server-alignment);
+  flex-direction: var(--server-direction);
+}
 #app-mount .guilds_a4d4d9 .scrollerBase_c49869 {
   padding: var(--server-spacing) 0 !important;
   display: flex;
@@ -248,6 +252,9 @@
   border-radius: 10px;
   height: 100%;
 }
+#app-mount .guilds_a4d4d9 ul[id^=folder-items-] {
+  gap: var(--server-spacing) !important;
+}
 #app-mount .guilds_a4d4d9 .folder_bc7085 {
   background: transparent;
 }
@@ -278,7 +285,8 @@
   left: 13px;
   z-index: 1;
 }
-#app-mount .friendsOnline-2JkivWm, #app-mount .friendsOnline_2JkivW {
+#app-mount .friendsOnline-2JkivWm,
+#app-mount .friendsOnline_2JkivW {
   position: absolute;
   transform: translate(-50%, 50%);
   top: calc(-50% + var(--server-spacing));
