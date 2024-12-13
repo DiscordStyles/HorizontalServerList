@@ -36,6 +36,11 @@
 			margin-bottom: 0 !important;
 		}
 
+		.itemsContainer_fea3ef {
+			justify-content: var(--server-alignment);
+			flex-direction: var(--server-direction);
+		}
+
 		.scrollerBase_c49869 {
 			padding: var(--server-spacing) 0 !important;
 			display: flex;
@@ -117,6 +122,9 @@
 			border-radius: 10px;
 			height: 100%;
 		}
+		ul[id^='folder-items-'] {
+			gap: var(--server-spacing) !important;
+		}
 
 		.folder_bc7085 {
 			background: transparent;
@@ -154,7 +162,8 @@
 	}
 
 	// OnlineFriendCount by Zerethox
-	.friendsOnline-2JkivWm, .friendsOnline_2JkivW {
+	.friendsOnline-2JkivWm,
+	.friendsOnline_2JkivW {
 		position: absolute;
 		transform: translate(-50%, 50%);
 		top: calc(-50% + var(--server-spacing));
