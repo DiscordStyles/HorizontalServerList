@@ -23,13 +23,13 @@ body #app-mount .guilds_a4d4d9.content-Pph8t6:not(.closed-j55_T-) + .base_a4d4d9
   top: 0 !important;
   bottom: calc(var(--server-container) * 2) !important;
 }
-body #app-mount [class*=listItemTooltip] {
+body #app-mount [class*=listItemTooltip_] {
   position: absolute;
   white-space: nowrap;
   top: calc(var(--server-size) / -1 - 30px) !important;
   margin-left: calc(var(--server-size) / -1 - 20px);
 }
-body #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
+body #app-mount [class*=listItemTooltip_] [class*=tooltipPointer] {
   transform: rotate(0) !important;
   top: unset !important;
   bottom: -10px !important;

@@ -271,14 +271,14 @@
 #app-mount .guilds_a4d4d9.hidden_fea3ef + .base_a4d4d9 {
   top: 0 !important;
 }
-#app-mount [class*=listItemTooltip] {
+#app-mount [class*=listItemTooltip_] {
   position: absolute;
   max-width: unset;
   white-space: nowrap;
   margin-left: calc(var(--server-size) / -1 - 20px);
   top: calc(var(--server-size) - 10px);
 }
-#app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
+#app-mount [class*=listItemTooltip_] [class*=tooltipPointer] {
   transform: rotate(180deg);
   top: -5px !important;
   right: unset;
