@@ -24,7 +24,7 @@ body #app-mount {
 			bottom: calc(var(--server-container) * 2) !important;
 		}
 	}
-	[class*='listItemTooltip'] {
+	[class*='listItemTooltip_'] {
 		position: absolute;
 		white-space: nowrap;
 		top: calc(var(--server-size) / -1 - 30px) !important;
