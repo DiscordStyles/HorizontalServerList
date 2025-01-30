@@ -1,25 +1,25 @@
-body #app-mount .app_bd26cc .base_a4d4d9 {
+body #app-mount .app_a3002d .base_c48ade {
   top: 0 !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds_a4d4d9 {
+body #app-mount .guilds_c48ade {
   top: unset !important;
   left: 100vw;
   bottom: 0 !important;
   transform-origin: bottom left;
 }
-body #app-mount .guilds_a4d4d9 [class*=pill] {
+body #app-mount .guilds_c48ade [class*=pill] {
   top: unset !important;
   bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
 }
-body #app-mount .guilds_a4d4d9 [class*=pill] span {
+body #app-mount .guilds_c48ade [class*=pill] span {
   border-radius: 4px 0 0 4px;
 }
-body #app-mount .guilds_a4d4d9.content-Pph8t6 {
+body #app-mount .guilds_c48ade.content-Pph8t6 {
   top: unset !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds_a4d4d9.content-Pph8t6:not(.closed-j55_T-) + .base_a4d4d9 {
+body #app-mount .guilds_c48ade.content-Pph8t6:not(.closed-j55_T-) + .base_c48ade {
   top: 0 !important;
   bottom: calc(var(--server-container) * 2) !important;
 }
@@ -35,6 +35,6 @@ body #app-mount [class*=listItemTooltip_] [class*=tooltipPointer] {
   bottom: -10px !important;
 }
 
-html.platform-osx #app-mount .base_a4d4d9 {
+html.platform-osx #app-mount .base_c48ade {
   top: 32px !important;
 }
