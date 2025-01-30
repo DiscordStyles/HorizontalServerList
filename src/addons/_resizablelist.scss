@@ -1,14 +1,14 @@
 @use '../theme/vars';
 
-#app-mount .guilds_a4d4d9 {
+#app-mount .guilds_c48ade {
 	width: var(--server-container);
 	.scrollerWrap-1IAIlv {
 		width: calc(100% + 30px);
 	}
-	.svg_c5f96a,
-	.wrapper_c5f96a,
+	.svg_cc5dd2,
+	.wrapper_cc5dd2,
 	.guildsError-b7zR5H,
-	.placeholderMask_f734d8 {
+	.placeholderMask__87847 {
 		width: var(--server-size);
 		height: var(--server-size);
 	}
@@ -20,10 +20,10 @@
 		left: 50%;
 		translate: -50% 0;
 	}
-	.wrapper_c4cd66 {
+	.wrapper__58105 {
 		height: var(--server-size) !important;
 	}
-	.wrapper_bc7085 {
+	.wrapper__48112 {
 		width: var(--server-container);
 	}
 	[class*='listItem']:not([class*='listItemWrapper']) {

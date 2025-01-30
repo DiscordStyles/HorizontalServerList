@@ -1,9 +1,9 @@
 body #app-mount {
-	.app_bd26cc .base_a4d4d9 {
+	.app_a3002d .base_c48ade {
 		top: 0 !important;
 		bottom: var(--server-container) !important;
 	}
-	.guilds_a4d4d9 {
+	.guilds_c48ade {
 		top: unset !important;
 		left: 100vw;
 		bottom: 0 !important;
@@ -16,10 +16,10 @@ body #app-mount {
 			}
 		}
 	}
-	.guilds_a4d4d9.content-Pph8t6 {
+	.guilds_c48ade.content-Pph8t6 {
 		top: unset !important;
 		bottom: var(--server-container) !important;
-		&:not(.closed-j55_T-) + .base_a4d4d9 {
+		&:not(.closed-j55_T-) + .base_c48ade {
 			top: 0 !important;
 			bottom: calc(var(--server-container) * 2) !important;
 		}
@@ -36,6 +36,6 @@ body #app-mount {
 		}
 	}
 }
-html.platform-osx #app-mount .base_a4d4d9 {
+html.platform-osx #app-mount .base_c48ade {
 	top: 32px !important;
 }
