@@ -1,0 +1,28 @@
+.content_c48ade {
+  margin-top: var(--custom-guild-list-width);
+  overflow: visible;
+}
+
+#app-mount .sidebar_c48ade {
+  border-radius: 0;
+  overflow: visible;
+}
+#app-mount .guilds_c48ade {
+  transform-origin: top left;
+  rotate: -90deg;
+  height: 100vw !important;
+  bottom: unset;
+  position: absolute !important;
+  left: 0;
+}
+#app-mount .tree_ef3116 {
+  padding-top: var(--HSL-top-padding, var(--size-sm));
+}
+#app-mount .wrapper_cc5dd2 {
+  rotate: 90deg;
+}
+#app-mount .itemsContainer_ef3116,
+#app-mount .stack_dbd263 {
+  flex-direction: var(--HSL-server-direction);
+  justify-content: var(--HSL-server-alignment);
+}
