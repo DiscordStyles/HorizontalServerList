@@ -1,41 +1,9 @@
-body #app-mount {
-	.app_a3002d .base_c48ade {
-		top: 0 !important;
-		bottom: var(--server-container) !important;
-	}
-	.guilds_c48ade {
-		top: unset !important;
-		left: 100vw;
-		bottom: 0 !important;
-		transform-origin: bottom left;
-		[class*='pill'] {
-			top: unset !important;
-			bottom: calc((var(--server-size) / -1) + (var(--server-size) / 2) - 8px) !important;
-			span {
-				border-radius: 4px 0 0 4px;
-			}
-		}
-	}
-	.guilds_c48ade.content-Pph8t6 {
-		top: unset !important;
-		bottom: var(--server-container) !important;
-		&:not(.closed-j55_T-) + .base_c48ade {
-			top: 0 !important;
-			bottom: calc(var(--server-container) * 2) !important;
-		}
-	}
-	[class*='listItemTooltip_'] {
-		position: absolute;
-		white-space: nowrap;
-		top: calc(var(--server-size) / -1 - 30px) !important;
-		margin-left: calc(var(--server-size) / -1 - 20px);
-		[class*='tooltipPointer'] {
-			transform: rotate(0) !important;
-			top: unset !important;
-			bottom: -10px !important;
-		}
-	}
+.content_c48ade {
+	margin-top: unset;
+	margin-bottom: var(--custom-guild-list-width);
 }
-html.platform-osx #app-mount .base_c48ade {
-	top: 32px !important;
+#app-mount {
+	.guilds_c48ade {
+		top: calc(100% + var(--custom-guild-list-width));
+	}
 }
