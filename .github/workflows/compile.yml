@@ -1,23 +1,23 @@
-name: "Compile SCSS"
+name: 'Compile SCSS'
 
-on: "push"
+on: 'push'
 
 jobs:
   build:
-    name: "Build CSS"
-    runs-on: "ubuntu-latest"
+    name: 'Build CSS'
+    runs-on: 'ubuntu-latest'
     steps:
-      - name: "Checkout Repo"
-        uses: "actions/checkout@v2"
-      - name: "Install BUN"
-        uses: "oven-sh/setup-bun@v2
-      - name: "Install of dependencies"
-        run: "bun i"
-      - name: "Run build script"
-        run: "bun run build"
-      - name: "Deploy"
-        uses: "peaceiris/actions-gh-pages@v3"
+      - name: 'Checkout Repo'
+        uses: 'actions/checkout@v2'
+      - name: 'Install BUN'
+        uses: 'oven-sh/setup-bun@v2'
+      - name: 'Install of dependencies'
+        run: 'bun i'
+      - name: 'Run build script'
+        run: 'bun run build'
+      - name: 'Deploy'
+        uses: 'peaceiris/actions-gh-pages@v3'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: "deploy"
-          publish_dir: "./dist"
+          publish_branch: 'deploy'
+          publish_dir: './dist'
