@@ -1,12 +1,12 @@
 .content_c48ade {
 	margin-top: var(--custom-guild-list-width);
-	overflow: visible;
+	overflow: visible !important;
 }
 
 #app-mount {
 	.sidebar_c48ade {
 		border-radius: 0;
-		overflow: visible;
+		overflow: visible !important;
 	}
 
 	.guilds_c48ade {
