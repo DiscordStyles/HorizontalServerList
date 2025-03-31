@@ -3,7 +3,7 @@
 	--serverlist-offset: var(--custom-guild-list-width);
 }
 
-.content_c48ade {
+.base_c48ade[data-fullscreen="false"] .content_c48ade {
 	margin-top: var(--serverlist-offset);
 	overflow: visible !important;
 }
