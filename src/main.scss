@@ -31,10 +31,12 @@
 		rotate: 90deg;
 	}
 
-	.itemsContainer_ef3116,
-	.stack_dbd263 {
-		flex-direction: var(--HSL-server-direction);
-		justify-content: var(--HSL-server-alignment);
+	ul[data-list-id=guildsnav] {
+		.itemsContainer_ef3116,
+		.stack_dbd263 {
+			flex-direction: var(--HSL-server-direction);
+			justify-content: var(--HSL-server-alignment);
+		}
 	}
 
 	// Notices
