@@ -3,18 +3,18 @@
 	--serverlist-offset: var(--custom-guild-list-width);
 }
 
-.base_c48ade[data-fullscreen="false"] .content_c48ade {
+.base__5e434[data-fullscreen="false"] .content__5e434 {
 	margin-top: var(--serverlist-offset);
 	overflow: visible !important;
 }
 
 #app-mount {
-	.sidebar_c48ade {
+	.sidebar__5e434 {
 		border-radius: 0;
 		overflow: visible !important;
 	}
 
-	.guilds_c48ade {
+	.guilds__5e434 {
 		transform-origin: top left;
 		rotate: -90deg;
 		height: 100vw !important;
@@ -41,14 +41,14 @@
 	.notice__6e2b9 {
 		height: var(--notices-height);
 
-		& + .content_c48ade {
+		& + .content__5e434 {
 			--serverlist-offset: calc(var(--notices-height) + var(--custom-guild-list-width));
 		}
 	}
 }
 
 // BetterFolders - Vencord
-.container_c48ade > div[style]:not(.base_c48ade) {
+.container__5e434 > div[style]:not(.base__5e434) {
 	width: 100vw !important;
 	height: var(--serverlist-offset) !important;
 	position: absolute;
@@ -56,11 +56,11 @@
 	pointer-events: none;
 	z-index: 1;
 
-	.guilds_c48ade {
+	.guilds__5e434 {
 		pointer-events: all;
 	}
 
-	& + .base_c48ade .content_c48ade {
+	& + .base__5e434 .content__5e434 {
 		margin-top: calc(var(--serverlist-offset) * 2);
 	}
 }
