@@ -8,6 +8,10 @@
   overflow: visible !important;
 }
 
+:fullscreen .content__5e434 {
+  margin: 0 !important;
+}
+
 #app-mount .sidebar__5e434 {
   border-radius: 0;
   overflow: visible !important;
