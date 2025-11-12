@@ -28,6 +28,19 @@
 		left: 0;
 	}
 
+	.trailing_c38106 { // Control buttons
+		right: 80px;
+	}
+
+	.bar_c38106 { // Control buttons bar
+		position: absolute;
+		width: 100%;
+	}
+
+	.base_c48ade { // Grid
+		grid-template-rows: none !important; // Top bar grid background and current server logo
+	}
+
 	.tree_ef3116 {
 		padding-top: var(--HSL-top-padding, var(--size-sm));
 	}
