@@ -3,7 +3,7 @@
 	--serverlist-offset: var(--custom-guild-list-width);
 }
 
-.base__5e434[data-fullscreen='false'] .content__5e434 {
+._5e434347c823b592-base[data-fullscreen='false'] ._5e434347c823b592-content {
 	margin-top: var(--serverlist-offset);
 	overflow: visible !important;
 }
@@ -14,12 +14,12 @@
 
 
 #app-mount {
-	.sidebar__5e434 {
+	._5e434347c823b592-sidebar {
 		border-radius: 0;
 		overflow: visible !important;
 	}
 
-	.guilds__5e434 {
+	._5e434347c823b592-guilds {
 		transform-origin: top left;
 		rotate: -90deg;
 		height: 100vw !important;
@@ -28,32 +28,38 @@
 		left: 0;
 	}
 
-	.tree_ef3116 {
+	.ef3116c2da186559-tree {
 		padding-top: var(--HSL-top-padding, var(--size-sm));
 	}
 
-	.wrapper_cc5dd2 {
+	// Rotate the icons back
+	._6e9f8dce4cc18de3-wrapper,
+	._48112cbe77dc5022-folderPreview,
+	._48112cbe77dc5022-folderIconWrapper {
 		rotate: 90deg;
 	}
+	._6e9f8dce4cc18de3-childWrapper {
+		rotate: 0deg;
+	}
 
-	.itemsContainer_ef3116,
-	.stack_dbd263 {
+	.ef3116c2da186559-itemsContainer,
+	.dbd2630aec71879b-stack {
 		flex-direction: var(--HSL-server-direction);
 		justify-content: var(--HSL-server-alignment);
 	}
 
 	// Notices
-	.notice__6e2b9 {
+	._6e2b9359c6f84cfd-notice {
 		height: var(--notices-height);
 
-		& + .content__5e434 {
+		& + ._5e434347c823b592-content {
 			--serverlist-offset: calc(var(--notices-height) + var(--custom-guild-list-width));
 		}
 	}
 }
 
 // BetterFolders - Vencord
-.container__5e434 > div[style]:not(.base__5e434) {
+._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) {
 	width: 100vw !important;
 	height: var(--serverlist-offset) !important;
 	position: absolute;
@@ -61,11 +67,11 @@
 	pointer-events: none;
 	z-index: 1;
 
-	.guilds__5e434 {
+	._5e434347c823b592-guilds {
 		pointer-events: all;
 	}
 
-	& + .base__5e434 .content__5e434 {
+	& + ._5e434347c823b592-base ._5e434347c823b592-content {
 		margin-top: calc(var(--serverlist-offset) * 2);
 	}
 }
