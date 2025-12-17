@@ -1,20 +1,20 @@
-.base__5e434[data-fullscreen=false] .content__5e434 {
+._5e434347c823b592-content {
   margin-top: unset;
   margin-bottom: var(--custom-guild-list-width);
 }
 
-#app-mount .guilds__5e434 {
+#app-mount ._5e434347c823b592-guilds {
   top: calc(100% + var(--custom-guild-list-width));
 }
 
-.container__5e434 > div[style]:not(.base__5e434) {
+._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) {
   bottom: calc(var(--custom-guild-list-width) * 2);
   top: unset;
 }
-.container__5e434 > div[style]:not(.base__5e434) .guilds__5e434 {
+._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) ._5e434347c823b592-guilds {
   top: calc(100% + var(--custom-guild-list-width) * 2) !important;
 }
-.container__5e434 > div[style]:not(.base__5e434) + .base__5e434 .content__5e434 {
+._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) + ._5e434347c823b592-base ._5e434347c823b592-content {
   margin-top: unset;
   margin-bottom: calc(var(--custom-guild-list-width) * 2);
 }

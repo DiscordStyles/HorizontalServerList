@@ -3,7 +3,7 @@
   --serverlist-offset: var(--custom-guild-list-width);
 }
 
-.base__5e434[data-fullscreen=false] .content__5e434 {
+._5e434347c823b592-base[data-fullscreen=false] ._5e434347c823b592-content {
   margin-top: var(--serverlist-offset);
   overflow: visible !important;
 }
@@ -12,11 +12,11 @@
   margin: 0 !important;
 }
 
-#app-mount .sidebar__5e434 {
+#app-mount ._5e434347c823b592-sidebar {
   border-radius: 0;
   overflow: visible !important;
 }
-#app-mount .guilds__5e434 {
+#app-mount ._5e434347c823b592-guilds {
   transform-origin: top left;
   rotate: -90deg;
   height: 100vw !important;
@@ -24,25 +24,30 @@
   position: absolute !important;
   left: 0;
 }
-#app-mount .tree_ef3116 {
+#app-mount .ef3116c2da186559-tree {
   padding-top: var(--HSL-top-padding, var(--size-sm));
 }
-#app-mount .wrapper_cc5dd2 {
+#app-mount ._6e9f8dce4cc18de3-wrapper,
+#app-mount ._48112cbe77dc5022-folderPreview,
+#app-mount ._48112cbe77dc5022-folderIconWrapper {
   rotate: 90deg;
 }
-#app-mount .itemsContainer_ef3116,
-#app-mount .stack_dbd263 {
+#app-mount ._6e9f8dce4cc18de3-childWrapper {
+  rotate: 0deg;
+}
+#app-mount .ef3116c2da186559-itemsContainer,
+#app-mount .dbd2630aec71879b-stack {
   flex-direction: var(--HSL-server-direction);
   justify-content: var(--HSL-server-alignment);
 }
-#app-mount .notice__6e2b9 {
+#app-mount ._6e2b9359c6f84cfd-notice {
   height: var(--notices-height);
 }
-#app-mount .notice__6e2b9 + .content__5e434 {
+#app-mount ._6e2b9359c6f84cfd-notice + ._5e434347c823b592-content {
   --serverlist-offset: calc(var(--notices-height) + var(--custom-guild-list-width));
 }
 
-.container__5e434 > div[style]:not(.base__5e434) {
+._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) {
   width: 100vw !important;
   height: var(--serverlist-offset) !important;
   position: absolute;
@@ -50,9 +55,9 @@
   pointer-events: none;
   z-index: 1;
 }
-.container__5e434 > div[style]:not(.base__5e434) .guilds__5e434 {
+._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) ._5e434347c823b592-guilds {
   pointer-events: all;
 }
-.container__5e434 > div[style]:not(.base__5e434) + .base__5e434 .content__5e434 {
+._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) + ._5e434347c823b592-base ._5e434347c823b592-content {
   margin-top: calc(var(--serverlist-offset) * 2);
 }
