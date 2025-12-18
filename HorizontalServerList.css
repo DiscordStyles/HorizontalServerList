@@ -29,7 +29,8 @@
 }
 #app-mount ._6e9f8dce4cc18de3-wrapper,
 #app-mount ._48112cbe77dc5022-folderPreview,
-#app-mount ._48112cbe77dc5022-folderIconWrapper {
+#app-mount ._48112cbe77dc5022-folderIconWrapper,
+#app-mount .cc5dd25190031396-lowerBadge {
   rotate: 90deg;
 }
 #app-mount ._6e9f8dce4cc18de3-childWrapper {
