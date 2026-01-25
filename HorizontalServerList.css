@@ -3,7 +3,7 @@
   --serverlist-offset: var(--custom-guild-list-width);
 }
 
-._5e434347c823b592-base[data-fullscreen=false] ._5e434347c823b592-content {
+.base__5e434[data-fullscreen=false] .content__5e434 {
   margin-top: var(--serverlist-offset);
   overflow: visible !important;
 }
@@ -12,11 +12,11 @@
   margin: 0 !important;
 }
 
-#app-mount ._5e434347c823b592-sidebar {
+#app-mount .sidebar__5e434 {
   border-radius: 0;
   overflow: visible !important;
 }
-#app-mount ._5e434347c823b592-guilds {
+#app-mount .guilds__5e434 {
   transform-origin: top left;
   rotate: -90deg;
   height: 100vw !important;
@@ -24,32 +24,32 @@
   position: absolute !important;
   left: 0;
 }
-#app-mount .ef3116c2da186559-tree {
+#app-mount .tree_ef3116 {
   padding-top: var(--HSL-top-padding, var(--size-sm));
 }
-#app-mount ._6e9f8dce4cc18de3-wrapper,
-#app-mount ._48112cbe77dc5022-folderPreview,
-#app-mount ._48112cbe77dc5022-folderIconWrapper,
-#app-mount .cc5dd25190031396-lowerBadge,
-#app-mount .cc5dd25190031396-upperBadge {
+#app-mount .wrapper__6e9f8,
+#app-mount .folderPreview__48112,
+#app-mount .folderIconWrapper__48112,
+#app-mount .lowerBadge_cc5dd2,
+#app-mount .upperBadge_cc5dd2 {
   rotate: 90deg;
 }
-#app-mount ._6e9f8dce4cc18de3-childWrapper {
+#app-mount .childWrapper__6e9f8 {
   rotate: 0deg;
 }
-#app-mount .ef3116c2da186559-itemsContainer,
-#app-mount .dbd2630aec71879b-stack {
+#app-mount .itemsContainer_ef3116,
+#app-mount .stack_dbd263 {
   flex-direction: var(--HSL-server-direction);
   justify-content: var(--HSL-server-alignment);
 }
-#app-mount ._6e2b9359c6f84cfd-notice {
+#app-mount .notice__6e2b9 {
   height: var(--notices-height);
 }
-#app-mount ._6e2b9359c6f84cfd-notice + ._5e434347c823b592-content {
+#app-mount .notice__6e2b9 + .content__5e434 {
   --serverlist-offset: calc(var(--notices-height) + var(--custom-guild-list-width));
 }
 
-._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) {
+.container__5e434 > div[style]:not(.base__5e434) {
   width: 100vw !important;
   height: var(--serverlist-offset) !important;
   position: absolute;
@@ -57,9 +57,9 @@
   pointer-events: none;
   z-index: 1;
 }
-._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) ._5e434347c823b592-guilds {
+.container__5e434 > div[style]:not(.base__5e434) .guilds__5e434 {
   pointer-events: all;
 }
-._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) + ._5e434347c823b592-base ._5e434347c823b592-content {
+.container__5e434 > div[style]:not(.base__5e434) + .base__5e434 .content__5e434 {
   margin-top: calc(var(--serverlist-offset) * 2);
 }
