@@ -1,23 +1,23 @@
-._5e434347c823b592-base[data-fullscreen='false'] ._5e434347c823b592-content {
+.base__5e434[data-fullscreen='false'] .content__5e434 {
 	margin-top: unset;
 	margin-bottom: var(--custom-guild-list-width);
 }
 #app-mount {
-	._5e434347c823b592-guilds {
+	.guilds__5e434 {
 		top: calc(100% + var(--custom-guild-list-width));
 	}
 }
 
 // BetterFolders - Vencord
-._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) {
+.base__5e434 > div[style]:not(.base__5e434) {
 	bottom: calc(var(--custom-guild-list-width) * 2);
 	top: unset;
 
-	._5e434347c823b592-guilds {
+	.guilds__5e434 {
 		top: calc(100% + var(--custom-guild-list-width) * 2) !important;
 	}
 
-	& + ._5e434347c823b592-base ._5e434347c823b592-content {
+	& + .base__5e434 .content__5e434 {
 		margin-top: unset;
 		margin-bottom: calc(var(--custom-guild-list-width) * 2);
 	}
