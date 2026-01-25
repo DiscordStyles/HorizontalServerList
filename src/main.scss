@@ -3,7 +3,7 @@
 	--serverlist-offset: var(--custom-guild-list-width);
 }
 
-._5e434347c823b592-base[data-fullscreen='false'] ._5e434347c823b592-content {
+.base__5e434[data-fullscreen='false'] .content__5e434 {
 	margin-top: var(--serverlist-offset);
 	overflow: visible !important;
 }
@@ -14,12 +14,12 @@
 
 
 #app-mount {
-	._5e434347c823b592-sidebar {
+	.sidebar__5e434 {
 		border-radius: 0;
 		overflow: visible !important;
 	}
 
-	._5e434347c823b592-guilds {
+	.guilds__5e434 {
 		transform-origin: top left;
 		rotate: -90deg;
 		height: 100vw !important;
@@ -28,40 +28,40 @@
 		left: 0;
 	}
 
-	.ef3116c2da186559-tree {
+	.tree_ef3116 {
 		padding-top: var(--HSL-top-padding, var(--size-sm));
 	}
 
 	// Rotate the icons back
-	._6e9f8dce4cc18de3-wrapper,
-	._48112cbe77dc5022-folderPreview,
-	._48112cbe77dc5022-folderIconWrapper,
-	.cc5dd25190031396-lowerBadge,
-	.cc5dd25190031396-upperBadge {
+	.wrapper__6e9f8,
+	.folderPreview__48112,
+	.folderIconWrapper__48112,
+	.lowerBadge_cc5dd2,
+	.upperBadge_cc5dd2 {
 		rotate: 90deg;
 	}
-	._6e9f8dce4cc18de3-childWrapper {
+	.childWrapper__6e9f8 {
 		rotate: 0deg;
 	}
 
-	.ef3116c2da186559-itemsContainer,
-	.dbd2630aec71879b-stack {
+	.itemsContainer_ef3116,
+	.stack_dbd263 {
 		flex-direction: var(--HSL-server-direction);
 		justify-content: var(--HSL-server-alignment);
 	}
 
 	// Notices
-	._6e2b9359c6f84cfd-notice {
+	.notice__6e2b9 {
 		height: var(--notices-height);
 
-		& + ._5e434347c823b592-content {
+		& + .content__5e434 {
 			--serverlist-offset: calc(var(--notices-height) + var(--custom-guild-list-width));
 		}
 	}
 }
 
 // BetterFolders - Vencord
-._5e434347c823b592-container > div[style]:not(._5e434347c823b592-base) {
+.container__5e434 > div[style]:not(.base__5e434) {
 	width: 100vw !important;
 	height: var(--serverlist-offset) !important;
 	position: absolute;
@@ -69,11 +69,11 @@
 	pointer-events: none;
 	z-index: 1;
 
-	._5e434347c823b592-guilds {
+	.guilds__5e434 {
 		pointer-events: all;
 	}
 
-	& + ._5e434347c823b592-base ._5e434347c823b592-content {
+	& + .base__5e434 .content__5e434 {
 		margin-top: calc(var(--serverlist-offset) * 2);
 	}
 }
