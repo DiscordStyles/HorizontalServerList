@@ -9,9 +9,8 @@
 }
 
 :fullscreen .content__5e434 {
-  margin: 0 !important;
+	margin: 0 !important;
 }
-
 
 #app-mount {
 	.sidebar__5e434 {
@@ -26,6 +25,12 @@
 		bottom: unset;
 		position: absolute !important;
 		left: 0;
+
+		.itemsContainer_ef3116,
+		.stack_dbd263 {
+			flex-direction: var(--HSL-server-direction);
+			justify-content: var(--HSL-server-alignment);
+		}
 	}
 
 	.tree_ef3116 {
@@ -42,12 +47,6 @@
 	}
 	.childWrapper__6e9f8 {
 		rotate: 0deg;
-	}
-
-	.itemsContainer_ef3116,
-	.stack_dbd263 {
-		flex-direction: var(--HSL-server-direction);
-		justify-content: var(--HSL-server-alignment);
 	}
 
 	// Notices
