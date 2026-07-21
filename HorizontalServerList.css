@@ -31,6 +31,7 @@
 }
 #app-mount .tree_ef3116 {
   padding-top: var(--HSL-top-padding, var(--size-sm));
+  justify-content: var(--HSL-server-alignment);
 }
 #app-mount .wrapper__6e9f8,
 #app-mount .folderPreview__48112,
