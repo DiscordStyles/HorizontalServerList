@@ -9,6 +9,8 @@ export default {
 		invite: 'ZHthyCw',
 	},
 	static: true,
-	github: 'DiscordStyles',
+	github: {
+		profile: 'DiscordStyles',
+	},
 	addons: [{ target: 'src/addons/bottomhsl.css' }],
 };

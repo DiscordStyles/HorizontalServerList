@@ -5,15 +5,15 @@
     "": {
       "name": "horizontalserverlist",
       "dependencies": {
-        "bd-css": "^0.0.4",
+        "bd-css": "latest",
       },
       "devDependencies": {
-        "prettier": "^3.8.1",
+        "prettier": "latest",
       },
     },
   },
   "packages": {
-    "bd-css": ["bd-css@0.0.4", "", { "dependencies": { "chokidar": "^5.0.0", "kleur": "^4.1.5", "lightningcss": "^1.33.0", "sade": "^1.8.1" }, "bin": { "bd-css": "lib/index.js" } }, "sha512-BSsm3t6Zho/eHiMZYXcJE6P3IGvtCkPbU7NU3H7SPJWgHab1WCYqW8hHf5Z/+Bx90O/RPKC5/A3ZFbh8esfY5w=="],
+    "bd-css": ["bd-css@0.0.5", "", { "dependencies": { "chokidar": "^5.0.0", "kleur": "^4.1.5", "lightningcss": "^1.33.0", "sade": "^1.8.1" }, "bin": { "bd-css": "lib/index.js" } }, "sha512-xluCTUsFh64TBhxQcnHHAhAc+NfB8IX8NAg5qAVhq49aJ45yDzJN9j4z9u4+P965HSdJpRZ/7dM3NcONNbExfQ=="],
 
     "chokidar": ["chokidar@5.0.0", "", { "dependencies": { "readdirp": "^5.0.0" } }, "sha512-TQMmc3w+5AxjpL8iIiwebF73dRDF4fBIieAqGn9RGCWaEVwQ6Fb2cGe31Yns0RRIzii5goJ1Y7xbMwo1TxMplw=="],
 
@@ -47,7 +47,7 @@
 
     "mri": ["mri@1.2.0", "", {}, "sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA=="],
 
-    "prettier": ["prettier@3.8.1", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg=="],
+    "prettier": ["prettier@3.9.6", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g=="],
 
     "readdirp": ["readdirp@5.0.0", "", {}, "sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ=="],
 

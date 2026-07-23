@@ -6,9 +6,9 @@
 		"build": "bun --bun bd-css build"
 	},
 	"dependencies": {
-		"bd-css": "^0.0.4"
+		"bd-css": "^0.0.5"
 	},
 	"devDependencies": {
-		"prettier": "^3.8.1"
+		"prettier": "^3.9.6"
 	}
 }
