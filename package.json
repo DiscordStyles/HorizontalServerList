@@ -2,12 +2,11 @@
 	"private": false,
 	"type": "module",
 	"scripts": {
-		"dev": "bun --bun bd-scss dev",
-		"build": "bun --bun bd-scss build",
-		"reroll": "bun --bun bd-scss reroll"
+		"dev": "bun --bun bd-css dev",
+		"build": "bun --bun bd-css build"
 	},
 	"dependencies": {
-		"bd-scss": "^3.0.8"
+		"bd-css": "^0.0.4"
 	},
 	"devDependencies": {
 		"prettier": "^3.8.1"

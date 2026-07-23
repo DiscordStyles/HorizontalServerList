@@ -8,7 +8,7 @@
 	}
 }
 
-// BetterFolders - Vencord
+/* BetterFolders - Vencord */
 .base__5e434 > div[style]:not(.base__5e434) {
 	bottom: calc(var(--custom-guild-list-width) * 2);
 	top: unset;

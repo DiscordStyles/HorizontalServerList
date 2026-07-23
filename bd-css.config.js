@@ -1,4 +1,4 @@
-/** @type {import('bd-scss/lib/config').Config} */
+/** @type {import('bd-css/lib/config').Config} */
 export default {
 	meta: {
 		name: 'Horizontal Server List',
@@ -8,6 +8,7 @@ export default {
 		source: 'https://github.com/DiscordStyles/HorizontalServerList',
 		invite: 'ZHthyCw',
 	},
+	static: true,
 	github: 'DiscordStyles',
-	addons: [{ target: 'src/addons/_bottomhsl.scss' }],
+	addons: [{ target: 'src/addons/bottomhsl.css' }],
 };
