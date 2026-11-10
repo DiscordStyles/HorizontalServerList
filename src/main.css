@@ -3,21 +3,21 @@
 	--serverlist-offset: var(--custom-guild-list-width);
 }
 
-.base__5e434[data-fullscreen='false'] .content__5e434 {
+.base_pog62O[data-fullscreen='false'] .content_pog62O {
 	margin-top: var(--serverlist-offset);
 	overflow: visible !important;
 }
 
-:fullscreen .content__5e434 {
+:fullscreen .content_pog62O {
 	margin: 0 !important;
 }
 
-.sidebar__5e434 {
+.sidebar_pog62O {
 	border-radius: 0;
 	overflow: visible !important;
 }
 
-.guilds__5e434 {
+.guilds_pog62O {
 	transform-origin: top left;
 	rotate: -90deg;
 	height: 100vw !important;
@@ -25,41 +25,40 @@
 	position: absolute !important;
 	left: 0;
 
-	.itemsContainer_ef3116,
-	.stack_dbd263 {
+	.stack_TWWX0S {
 		flex-direction: var(--HSL-server-direction);
 		justify-content: var(--HSL-server-alignment);
 	}
 }
 
-.tree_ef3116 {
+.tree_5dqHTG {
 	padding-top: var(--HSL-top-padding, var(--size-sm));
 	justify-content: var(--HSL-server-alignment);
 }
 
 /* Rotate the icons back */
-.wrapper__6e9f8,
-.folderPreview__48112,
-.folderIconWrapper__48112,
-.lowerBadge_cc5dd2,
-.upperBadge_cc5dd2 {
+.wrapper_JJ-hgR,
+.folderPreview_RTMSuZ,
+.folderIconWrapper_RTMSuZ,
+.lowerBadge_hqZPsU,
+.upperBadge_hqZPsU {
 	rotate: 90deg;
 }
-.childWrapper__6e9f8 {
+.childWrapper_JJ-hgR {
 	rotate: 0deg;
 }
 
 /* Notices */
-.notice__6e2b9 {
+[class^='notice_'] {
 	height: var(--notices-height);
 
-	& + .content__5e434 {
+	& + .content_pog62O {
 		--serverlist-offset: calc(var(--notices-height) + var(--custom-guild-list-width));
 	}
 }
 
 /* BetterFolders - Vencord */
-.container__5e434 > div[style]:not(.base__5e434) {
+.container_pog62O > div[style]:not(.base_pog62O) {
 	width: 100vw !important;
 	height: var(--serverlist-offset) !important;
 	position: absolute;
@@ -67,11 +66,11 @@
 	pointer-events: none;
 	z-index: 1;
 
-	.guilds__5e434 {
+	.guilds_pog62O {
 		pointer-events: all;
 	}
 
-	& + .base__5e434 .content__5e434 {
+	& + .base_pog62O .content_pog62O {
 		margin-top: calc(var(--serverlist-offset) * 2);
 	}
 }
